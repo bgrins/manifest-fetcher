@@ -53,7 +53,7 @@ function getManifestURL(page, dom) {
       console.log("Responding", page, ++numFetched);
       if (response.ok) {
         const dom = new JSDOM(markup, {
-          url: page,
+          url: response.url,
         });
         MANIFEST_URL_RESULTS.set(page, getManifestURL(page, dom));
       }
