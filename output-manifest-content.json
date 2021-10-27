@@ -1,79 +1,4 @@
 {
-  "https://youtube.com": {
-    "name": "YouTube",
-    "short_name": "YouTube",
-    "background_color": "#FFFFFF",
-    "display": "minimal-ui",
-    "start_url": "/?feature=ytca",
-    "scope": "/",
-    "icons": [
-      {
-        "src": "https://www.gstatic.com/youtube/img/branding/favicon/favicon_144x144.png",
-        "sizes": "144x144",
-        "type": "image/png"
-      },
-      {
-        "src": "https://www.gstatic.com/youtube/img/branding/favicon/favicon_192x192.png",
-        "sizes": "192x192",
-        "type": "image/png"
-      },
-      {
-        "src": "https://www.gstatic.com/youtube/img/web/monochrome/logo_16x16.png",
-        "sizes": "16x16",
-        "type": "image/png",
-        "purpose": "monochrome"
-      },
-      {
-        "src": "https://www.gstatic.com/youtube/img/web/monochrome/logo_32x32.png",
-        "sizes": "32x32",
-        "type": "image/png",
-        "purpose": "monochrome"
-      },
-      {
-        "src": "https://fonts.gstatic.com/s/i/googlematerialicons/video_youtube/v11/white-48dp/1x/gm_video_youtube_white_48dp.png",
-        "sizes": "48x48",
-        "type": "image/png",
-        "purpose": "monochrome"
-      },
-      {
-        "src": "https://www.gstatic.com/youtube/img/web/monochrome/logo_512x512.png",
-        "sizes": "512x512",
-        "type": "image/png",
-        "purpose": "monochrome"
-      }
-    ],
-    "theme_color": "#FF0000",
-    "gcm_sender_id": "402845223712",
-    "gcm_user_visible_only": true,
-    "related_applications": [],
-    "capture_links": "none",
-    "shortcuts": [
-      {
-        "name": "Subscriptions",
-        "url": "/feed/subscriptions?feature=app_shortcuts",
-        "icons": [
-          {
-            "src": "https://www.gstatic.com/youtube/img/web/shortcuts/subscriptions_512x512.png",
-            "sizes": "512x512",
-            "type": "image/png",
-            "purpose": "any monochrome"
-          }
-        ]
-      },
-      {
-        "name": "Explore",
-        "url": "/feed/explore?feature=app_shortcuts",
-        "icons": [
-          {
-            "src": "https://www.gstatic.com/youtube/img/web/shortcuts/explore_512x512.png",
-            "sizes": "512x512",
-            "type": "image/png",
-            "purpose": "any monochrome"
-          }
-        ]
-      }
-    ]
-  },
   "https://uol.com.br": {
     "//": "It is the same for all projects, this is not your project's sender ID",
     "gcm_sender_id": "103953800507",
@@ -1596,6 +1521,141 @@
       }
     ]
   },
+  "https://cbsnews.com": {
+    "dir": "ltr",
+    "lang": "en-US",
+    "name": "CBS News",
+    "short_name": "CBS News",
+    "description": "CBS News - Breaking News, Live News stream 24x7",
+    "categories": [
+      "news",
+      "politics",
+      "entertainment"
+    ],
+    "theme_color": "#101010",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "scope": "/",
+    "start_url": "/?pwa",
+    "prefer_related_applications": false,
+    "related_applications": [
+      {
+        "platform": "play",
+        "url": "https://play.google.com/store/apps/details?id=com.treemolabs.apps.cbsnews",
+        "id": "com.treemolabs.apps.cbsnews"
+      },
+      {
+        "platform": "itunes",
+        "url": "https://itunes.apple.com/us/app/cbs-news-live-breaking-news/id334256223",
+        "id": "334256223"
+      },
+      {
+        "platform": "windows",
+        "id": "2BDFC20A.CBSNews_bd059sf7kn2rm"
+      },
+      {
+        "platform": "webapp",
+        "url": "https://www.cbsnews.com/manifest.json"
+      }
+    ],
+    "icons": [
+      {
+        "src": "/fly/bundles/cbsnewscore/icons/icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "/fly/bundles/cbsnewscore/icons/icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "/fly/bundles/cbsnewscore/icons/icon-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "/fly/bundles/cbsnewscore/icons/icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "/fly/bundles/cbsnewscore/icons/icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "/fly/bundles/cbsnewscore/icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/fly/bundles/cbsnewscore/icons/icon-240x240-maskable.png",
+        "sizes": "240x240",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/fly/bundles/cbsnewscore/icons/icon-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "/fly/bundles/cbsnewscore/icons/icon-480x480-maskable.png",
+        "sizes": "480x480",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/fly/bundles/cbsnewscore/icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "shortcuts": [
+      {
+        "name": "Latest News",
+        "short_name": "Latest News",
+        "description": "Read top stories and latest news on CBS News",
+        "url": "/?pwa&intcid=shortcut",
+        "icons": [
+          {
+            "src": "/fly/bundles/cbsnewscore/icons/icon-101010-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+          }
+        ]
+      },
+      {
+        "name": "Watch CBSN",
+        "short_name": "CBSN",
+        "description": "Watch CBSN - free 24/7 online streaming news",
+        "url": "/live/?pwa&intcid=shortcut",
+        "icons": [
+          {
+            "src": "/fly/bundles/cbsnewscore/icons/icon-1766B9-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+          }
+        ]
+      },
+      {
+        "name": "Sign Up For Newsletters",
+        "short_name": "Newsletters",
+        "description": "Get the latest news and best in original reporting from CBS News delivered to your inbox",
+        "url": "/newsletters/?pwa&intcid=shortcut",
+        "icons": [
+          {
+            "src": "/fly/bundles/cbsnewscore/icons/icon-991516-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+          }
+        ]
+      }
+    ],
+    "splash_pages": null
+  },
   "https://ft.com": {
     "name": "Financial Times",
     "short_name": "FT",
@@ -1870,6 +1930,25 @@
       }
     ]
   },
+  "https://sedo.com": {
+    "name": "Sedo",
+    "short_name": "Sedo",
+    "icons": [
+      {
+        "src": "/c7r/assets/static/images/icons/android-chrome-192x192.png?v=dLJ3bx2xjj",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/c7r/assets/static/images/icons/android-chrome-512x512.png?v=dLJ3bx2xjj",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#0060a9",
+    "background_color": "#0060a9",
+    "display": "standalone"
+  },
   "https://mashable.com": {
     "name": "Mashable",
     "short_name": "Mashable",
@@ -1943,6 +2022,32 @@
       }
     ]
   },
+  "https://instagram.com": {
+    "name": "Instagram",
+    "short_name": "Instagram",
+    "description": "Instagram is a simple way to capture and share the world's moments.",
+    "start_url": "/?utm_source=pwa_homescreen",
+    "orientation": "portrait",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "prompt_message": "Add a Home screen icon for easy access to Instagram",
+    "icons": [
+      {
+        "src": "/static/images/ico/xxhdpi_launcher.png/99cf3909d459.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/images/ico/xxxhdpi_launcher.png/9fc4bab7565b.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ],
+    "gcm_sender_id": "524223308106",
+    "gcm_user_visible_only": true,
+    "status": "ok"
+  },
   "https://researchgate.net": {
     "name": "ResearchGate",
     "short_name": "ResearchGate",
@@ -2005,6 +2110,25 @@
     "background_color": "#2196F3",
     "theme_color": "#070f6c"
   },
+  "https://newsweek.com": {
+    "name": "Newsweek",
+    "short_name": "Newsweek",
+    "icons": [
+      {
+        "src": "android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "android-chrome-256x256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#ff0500",
+    "background_color": "#ff0500",
+    "display": "standalone"
+  },
   "https://economist.com": {
     "name": "The Economist",
     "short_name": "Economist",
@@ -2023,6 +2147,24 @@
     ],
     "background_color": "#E3120B",
     "theme_color": "#E3120B",
+    "display": "standalone"
+  },
+  "https://box.com": {
+    "name": "Box",
+    "icons": [
+      {
+        "src": "/themes/custom/box/favicons/android-chrome-192x192.png?v=eEagRR2lRz",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/themes/custom/box/favicons/android-chrome-512x512.png?v=eEagRR2lRz",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
     "display": "standalone"
   },
   "https://clarin.com": {
@@ -2087,6 +2229,25 @@
     ],
     "theme_color": "#19213b",
     "background_color": "#19213b",
+    "display": "standalone"
+  },
+  "https://nokia.com": {
+    "name": "Nokia",
+    "short_name": "Nokia",
+    "icons": [
+      {
+        "src": "/themes/custom/onenokia_base_theme/icons/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/themes/custom/onenokia_base_theme/icons/android-chrome-256x256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
     "display": "standalone"
   },
   "https://variety.com": {
@@ -2213,6 +2374,23 @@
     "theme_color": "#FF9600",
     "gcm_sender_id": "304454124940"
   },
+  "https://ap.org": {
+    "name": "AP",
+    "icons": [
+      {
+        "src": "/assets/images/framework/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/images/framework/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#ff0000",
+    "display": "standalone"
+  },
   "https://evernote.com": {
     "short_name": "Evernote",
     "name": "Evernote",
@@ -2223,6 +2401,101 @@
         "id": "com.evernote"
       }
     ]
+  },
+  "https://etsy.com": {
+    "name": "Etsy",
+    "short_name": "Etsy",
+    "icons": [
+      {
+        "src": "/images/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#f1614e",
+    "background_color": "#f1614e",
+    "start_url": "/",
+    "display": "browser"
+  },
+  "https://utexas.edu": {
+    "name": "",
+    "icons": [
+      {
+        "src": "/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff"
+  },
+  "https://trustpilot.com": {
+    "name": "Trustpilot",
+    "short_name": "Trustpilot",
+    "theme_color": "#000032",
+    "background_color": "#000032",
+    "start_url": "/?utm_source=web_app_manifest",
+    "description": "Trustpilot is an online review community.",
+    "display": "standalone",
+    "manifest_version": 2,
+    "version": "0.2",
+    "orientation": "portrait",
+    "icons": [
+      {
+        "src": "https://cdn.trustpilot.net/brand-assets/1.5.0/favicons/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "https://cdn.trustpilot.net/brand-assets/1.5.0/favicons/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  },
+  "https://ebay.co.uk": {
+    "background_color": "#f5f5f5",
+    "gcm_sender_id": "103953800507",
+    "display": "standalone",
+    "icons": [
+      {
+        "src": "https://ir.ebaystatic.com/cr/v/c1/chauffeur/pwa-app-icons/v1/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "https://ir.ebaystatic.com/cr/v/c1/chauffeur/pwa-app-icons/v1/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "purpose": "maskable",
+        "src": "https://ir.ebaystatic.com/cr/v/c1/chauffeur/pwa-app-icons/v1/icon-192x192-maskable.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "purpose": "maskable",
+        "src": "https://ir.ebaystatic.com/cr/v/c1/chauffeur/pwa-app-icons/v1/icon-512x512-maskable.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "name": "eBay",
+    "short_name": "eBay",
+    "start_url": "https://www.ebay.co.uk/",
+    "theme_color": "#ffffff",
+    "scope": "/"
   },
   "https://weather.com": {
     "name": "The Weather Channel",
@@ -2278,6 +2551,211 @@
     "display": "standalone",
     "gcm_sender_id": "798371954211"
   },
+  "https://boston.com": {
+    "name": "Bdc 2020",
+    "short_name": "Bdc 2020",
+    "description": "Project description for Bdc 2020",
+    "display": "standalone",
+    "start_url": "/?utm_source=app",
+    "background_color": "#232323",
+    "orientation": "any",
+    "theme_color": "#d23226",
+    "icons": [
+      {
+        "src": "dist/images/icon-512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "dist/images/icon-192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "dist/images/icon-128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      }
+    ]
+  },
+  "https://adweek.com": {
+    "short_name": "Adweek",
+    "name": "Adweek",
+    "description": "Breaking News in Advertising, Media and Technology.",
+    "icons": [
+      {
+        "src": "/wp-content/themes/adweek-next/src/images/pwa/Adweek-192-192.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "any"
+      },
+      {
+        "src": "/wp-content/themes/adweek-next/src/images/pwa/Adweek-192-192-maskable.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/wp-content/themes/adweek-next/src/images/pwa/Adweek-512-512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "any"
+      },
+      {
+        "src": "/wp-content/themes/adweek-next/src/images/pwa/Adweek-512-512-maskable.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "maskable"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "#fff",
+    "display": "fullscreen",
+    "scope": "/",
+    "theme_color": "#000"
+  },
+  "https://princeton.edu": {
+    "name": "",
+    "icons": [
+      {
+        "src": "/themes/custom/tony/icons/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/themes/custom/tony/icons/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+  },
+  "https://pinterest.co.uk": {
+    "android_package_name": "com.pinterest",
+    "background_color": "#fff",
+    "display": "minimal-ui",
+    "icons": [
+      {
+        "src": "https://s.pinimg.com/images/favicon_red_192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ],
+    "gcm_sender_id": "1021726025582",
+    "gcm_user_visible_only": true,
+    "name": "Pinterest",
+    "orientation": "portrait",
+    "short_name": "Pinterest",
+    "start_url": "/?utm_source=homescreen_icon",
+    "theme_color": "#FFFFFF",
+    "related_applications": [
+      {
+        "platform": "play",
+        "id": "com.pinterest"
+      },
+      {
+        "platform": "play",
+        "id": "com.pinterest.ota"
+      },
+      {
+        "platform": "play",
+        "id": "com.pinterest.test"
+      },
+      {
+        "platform": "play",
+        "id": "com.pinterest.twa"
+      },
+      {
+        "platform": "play",
+        "id": "com.pinterest.dev"
+      },
+      {
+        "platform": "webapp",
+        "url": "https://www.pinterest.com/manifest.json"
+      }
+    ],
+    "url_handlers": [
+      {
+        "origin": "*.pinterest.com"
+      },
+      {
+        "origin": "*.pinterest.info"
+      },
+      {
+        "origin": "*.pinterest.at"
+      },
+      {
+        "origin": "*.pinterest.com.au"
+      },
+      {
+        "origin": "*.pinterest.ca"
+      },
+      {
+        "origin": "*.pinterest.ch"
+      },
+      {
+        "origin": "*.pinterest.cl"
+      },
+      {
+        "origin": "*.pinterest.de"
+      },
+      {
+        "origin": "*.pinterest.dk"
+      },
+      {
+        "origin": "*.pinterest.es"
+      },
+      {
+        "origin": "*.pinterest.fr"
+      },
+      {
+        "origin": "*.pinterest.co.uk"
+      },
+      {
+        "origin": "*.pinterest.ie"
+      },
+      {
+        "origin": "*.pinterest.it"
+      },
+      {
+        "origin": "*.pinterest.jp"
+      },
+      {
+        "origin": "*.pinterest.co.kr"
+      },
+      {
+        "origin": "*.pinterest.com.mx"
+      },
+      {
+        "origin": "*.pinterest.nz"
+      },
+      {
+        "origin": "*.pinterest.se"
+      },
+      {
+        "origin": "*.pinterest.ph"
+      },
+      {
+        "origin": "*.pinterest.pt"
+      },
+      {
+        "origin": "*.pinterest.ru"
+      }
+    ]
+  },
+  "https://usgs.gov": {
+    "name": "USGS",
+    "icons": [
+      {
+        "src": "/sites/all/themes/usgs_palladium/favicons/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#008457"
+  },
   "https://people.com": {
     "short_name": "TimeInc",
     "name": "TimeInc Templates",
@@ -2298,6 +2776,25 @@
     "background_color": "white",
     "theme_color": "blue",
     "gcm_sender_id": "103953800507"
+  },
+  "https://fifa.com": {
+    "name": "",
+    "short_name": "",
+    "icons": [
+      {
+        "src": "/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
   },
   "https://cloud.google.com": {
     "name": "Google Cloud",

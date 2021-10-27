@@ -1,6 +1,6 @@
 https://apple.com,,
 https://www.google.com,,
-https://youtube.com,https://youtube.com/manifest.webmanifest,
+https://youtube.com,,Error: timeout
 https://linkedin.com,,
 https://play.google.com,,Error: timeout
 https://microsoft.com,,Error: timeout
@@ -9,7 +9,7 @@ https://www.blogger.com,,Error: timeout
 https://maps.google.com,,Error: timeout
 https://mozilla.org,,Error: timeout
 https://wordpress.org,,
-https://youtu.be,https://youtu.be/manifest.webmanifest,
+https://youtu.be,,Error: timeout
 https://en.wikipedia.org,,
 https://cloudflare.com,,
 https://docs.google.com,,
@@ -43,7 +43,7 @@ https://terra.com.br,https://www.terra.com.br/manifest-br.json,
 https://dropbox.com,,
 https://line.me,,
 https://jimdofree.com,https://jimdofree.com/manifest.json,
-https://reuters.com,,Error: fetch
+https://reuters.com,,
 https://google.co.jp,,
 https://bbc.co.uk,https://static.files.bbci.co.uk/core/manifest.8d4237cbd18eb052a5fa59995d4624b88fd4c643.json,
 https://medium.com,,
@@ -65,7 +65,7 @@ https://cnn.com,,
 https://google.de,,
 https://youronlinechoices.com,,
 https://mail.ru,,
-https://nytimes.com,,
+https://nytimes.com,,Error: timeout
 https://bbc.com,,
 https://nih.gov,,
 https://google.es,,
@@ -87,7 +87,7 @@ https://harvard.edu,,
 https://archive.org,,
 https://wa.me,,
 https://cdc.gov,,
-https://un.org,,Error: timeout
+https://un.org,,Error: fetch
 https://amazon.co.jp,,
 https://elpais.com,,
 https://forms.gle,,
@@ -108,7 +108,7 @@ https://scribd.com,,
 https://ipv4.google.com,,
 https://wsj.com,,Error: timeout
 https://usatoday.com,,
-https://fandom.com,https://www.fandom.com/f2/assets/favicons/manifest.json?v=9b9e0918143f48c1a401fe85ce0dc0369efe57e1,
+https://fandom.com,https://www.fandom.com/f2/assets/favicons/manifest.json?v=91ad7dadb26c5a955d25639c56ee12cd23fc2573,
 https://mirror.co.uk,https://mirror.co.uk/manifest.json?v=dfce743ec8dbe578,
 https://google.co.uk,,
 https://marketingplatform.google.com,,
@@ -120,15 +120,15 @@ https://aboutads.info,,
 https://telegram.me,,
 https://washingtonpost.com,,Error: timeout
 https://thesun.co.uk,,
-https://amazon.de,,Error: timeout
-https://samsung.com,,Error: timeout
+https://amazon.de,,
+https://samsung.com,,Error: fetch
 https://picasaweb.google.com,,Error: timeout
 https://de.wikipedia.org,,
 https://time.com,https://time.com/manifest.json,
-https://amazon.es,,
+https://amazon.es,,Error: timeout
 https://dailymail.co.uk,,Error: timeout
 https://ig.com.br,,Error: timeout
-https://goo.gl,,Error: timeout
+https://goo.gl,,
 https://businessinsider.com,https://www.businessinsider.com/public/assets/BI/US/favicons/site.webmanifest?v=2021-08,
 https://ebay.com,https://www.ebay.com/manifest.json,
 https://estadao.com.br,,
@@ -151,7 +151,7 @@ https://books.google.com,,
 https://get.google.com,,
 https://cpanel.com,,
 https://myaccount.google.com,,Error: timeout
-https://abril.com.br,,Error: timeout
+https://abril.com.br,,Error: fetch
 https://foxnews.com,,
 https://huffpost.com,,
 https://photos.google.com,,
@@ -175,7 +175,7 @@ https://godaddy.com,,Error: fetch
 https://express.co.uk,,
 https://academia.edu,https://a.academia-assets.com/images/favicons/manifest.json,
 https://ja.wikipedia.org,,
-https://espn.com,,
+https://espn.com,,Error: timeout
 https://bloglovin.com,,
 https://my.yahoo.com,,
 https://nationalgeographic.com,,
@@ -205,7 +205,7 @@ https://gofundme.com,https://gofundme.com/site.webmanifest,
 https://wikihow.com,,Error: timeout
 https://npr.org,,
 https://mozilla.com,,Error: timeout
-https://eventbrite.com,https://cdn.evbstatic.com/s3-build/232984-rc2021-10-21_16.04-8f0e424/django/images/favicons/manifest.webmanifest,
+https://eventbrite.com,https://cdn.evbstatic.com/s3-build/240391-rc2021-10-27_16.04-74fdf6c/django/images/favicons/manifest.webmanifest,
 https://theatlantic.com,,
 https://disney.com,,
 https://lavanguardia.com,,
@@ -214,7 +214,7 @@ https://discord.gg,,
 https://pbs.org,https://pbs.org/static/manifest.d1ce1028c563.json,
 https://sciencemag.org,,Error: timeout
 https://search.yahoo.com,,
-https://amazon.fr,,
+https://amazon.fr,,Error: timeout
 https://yelp.com,,
 https://bp2.blogger.com,,
 https://google.co.in,,
@@ -225,7 +225,7 @@ https://surveymonkey.com,https://prod.smassets.net/assets/static/images/surveymo
 https://netlify.app,,Error: timeout
 https://welt.de,,Error: timeout
 https://yahoo.co.jp,,
-https://cbsnews.com,,Error: timeout
+https://cbsnews.com,https://cbsnews.com/manifest.json,
 https://www.wix.com,,
 https://ft.com,https://www.ft.com/__assets/creatives/manifest/manifest-v6.json,
 https://gnu.org,,
@@ -256,24 +256,24 @@ https://rt.com,https://rt.com/manifest.json,
 https://ziddu.com,,
 https://wikia.com,,Error: timeout
 https://goodreads.com,,
-https://sedo.com,,Error: timeout
+https://sedo.com,https://cdn.sedo.com/c7r/assets/static/images/icons/site.webmanifest?v=dLJ3bx2xjj,
 https://asus.com,,Error: timeout
 https://whitehouse.gov,,
 https://photos1.blogger.com,,
 https://secureserver.net,,
-https://hp.com,,Error: fetch
+https://hp.com,,Error: timeout
 https://ietf.org,,
 https://addthis.com,,Error: fetch
 https://discord.com,,
 https://shopify.com,,
-https://amazon.it,,
-https://nikkei.com,,Error: timeout
+https://amazon.it,,Error: timeout
+https://nikkei.com,,
 https://oup.com,,Error: timeout
 https://tmz.com,,
 https://nydailynews.com,,Error: fetch
 https://hm.com,,Error: timeout
 https://mashable.com,https://mashable.com/manifest.json,
-https://cnil.fr,,Error: timeout
+https://cnil.fr,,
 https://stackoverflow.com,,
 https://pixabay.com,,
 https://deezer.com,,Error: timeout
@@ -284,8 +284,8 @@ https://fb.me,https://fb.me/data/manifest/,
 https://mega.nz,,
 https://springer.com,,Error: timeout
 https://doi.org,,
-https://nypost.com,https://nypost.com/wp-content/themes/nypost-2016/static/nypost-manifest.json?ver=64c411406524ac4e26e1,
-https://instagram.com,,Error: timeout
+https://nypost.com,https://nypost.com/wp-content/themes/nypost-2016/static/nypost-manifest.json?ver=3b3e86fd5747726a1fd0,
+https://instagram.com,https://instagram.com/data/manifest.json,
 https://cambridge.org,,Error: timeout
 https://researchgate.net,https://www.researchgate.net/manifest.json,
 https://amzn.to,,Error: timeout
@@ -300,23 +300,23 @@ https://lefigaro.fr,,Error: timeout
 https://indiatimes.com,,Error: timeout
 https://ibm.com,,Error: timeout
 https://finance.yahoo.com,https://finance.yahoo.com/manifest.json,
-https://walmart.com,,Error: timeout
+https://walmart.com,,
 https://ign.com,,Error: timeout
 https://abc.net.au,,
-https://tripadvisor.com,,Error: timeout
+https://tripadvisor.com,,
 https://gmail.com,,Error: timeout
 https://picasa.google.com,,
 https://yandex.ru,,
-https://rtve.es,,Error: timeout
+https://rtve.es,,Error: fetch
 https://themeforest.net,,
 https://oracle.com,,Error: timeout
-https://newsweek.com,,Error: timeout
+https://newsweek.com,https://g.newsweek.com/themes/newsweek/favicons/site.webmanifest,
 https://thetimes.co.uk,,Error: timeout
 https://target.com,,Error: timeout
 https://bing.com,,
 https://clickbank.net,,Error: fetch
 https://economist.com,https://economist.com/site.webmanifest.json,
-https://lycos.com,,Error: timeout
+https://lycos.com,,
 https://weibo.com,,Error: timeout
 https://dw.com,,Error: timeout
 https://sapo.pt,,Error: timeout
@@ -325,14 +325,14 @@ https://netflix.com,,Error: timeout
 https://orange.fr,,Error: timeout
 https://mit.edu,,
 https://huawei.com,,Error: timeout
-https://afternic.com,,Error: timeout
+https://afternic.com,,
 https://t.co,,
 https://hollywoodreporter.com,,Error: timeout
-https://biglobe.ne.jp,,Error: timeout
-https://ted.com,,Error: timeout
+https://biglobe.ne.jp,,
+https://ted.com,,
 https://sciencedaily.com,,
-https://box.com,,Error: timeout
-https://mysql.com,,Error: timeout
+https://box.com,https://box.com/themes/custom/box/favicons/manifest.json?r1nkiy,
+https://mysql.com,,
 https://newyorker.com,,Error: timeout
 https://latimes.com,,Error: timeout
 https://steampowered.com,,Error: timeout
@@ -342,75 +342,75 @@ https://addtoany.com,,Error: fetch
 https://clarin.com,https://clarin.com/manifest.json?v1.0,
 https://instructables.com,,
 https://storage.googleapis.com,,
-https://ca.gov,,Error: timeout
-https://www.gov.br,,Error: timeout
+https://ca.gov,,
+https://www.gov.br,,
 https://lg.com,,Error: timeout
 https://photobucket.com,https://app-content.photobucket.com/manifest.json,
-https://zendesk.com,,Error: timeout
-https://feedproxy.google.com,,Error: timeout
+https://zendesk.com,,
+https://feedproxy.google.com,,
 https://kakao.com,,Error: timeout
 https://wiley.com,,Error: timeout
 https://www.over-blog.com,,
-https://yadi.sk,,Error: timeout
-https://nokia.com,,Error: timeout
+https://yadi.sk,,
+https://nokia.com,https://nokia.com/themes/custom/onenokia_base_theme/icons/site.webmanifest,
 https://groups.google.com,,Error: timeout
 https://engadget.com,,Error: timeout
 https://code.google.com,,
 https://variety.com,https://variety.com/wp-json/wp/v2/web-app-manifest,
 https://ovh.com,,Error: timeout
-https://php.net,,Error: timeout
+https://php.net,,
 https://loc.gov,,
 https://sputniknews.com,https://sputniknews.com/project_data/manifest.json?4,
 https://unesco.org,,Error: timeout
-https://google.ca,,Error: timeout
+https://google.ca,,
 https://disqus.com,,
 https://playstation.com,,Error: timeout
 https://gizmodo.com,,
-https://quora.com,,Error: timeout
+https://quora.com,,
 https://www.wikipedia.org,,
 https://psychologytoday.com,,Error: timeout
-https://repubblica.it,,Error: timeout
+https://repubblica.it,,
 https://sky.com,,Error: timeout
 https://news.com.au,,Error: timeout
 https://googleblog.com,,Error: timeout
 https://vice.com,,Error: timeout
-https://ap.org,,Error: timeout
-https://canva.com,,Error: timeout
-https://m.me,,Error: timeout
-https://nicovideo.jp,,Error: timeout
-https://biblegateway.com,,Error: timeout
+https://ap.org,https://ap.org/manifest.json,
+https://canva.com,,
+https://m.me,,
+https://nicovideo.jp,,
+https://biblegateway.com,,
 https://evernote.com,https://evernote.com/web-app-manifest.json,
 https://canada.ca,,Error: timeout
-https://etsy.com,,Error: timeout
-https://dictionary.com,,Error: timeout
-https://unicef.org,,Error: timeout
+https://etsy.com,https://etsy.com/site.webmanifest,
+https://dictionary.com,,
+https://unicef.org,,
 https://sina.com.cn,,Error: timeout
-https://utexas.edu,,Error: timeout
-https://last.fm,,Error: timeout
+https://utexas.edu,https://www.utexas.edu/manifest.json,
+https://last.fm,,
 https://softonic.com,,Error: timeout
 https://dreniq.com,,
-https://offset.com,,Error: timeout
-https://ftc.gov,,Error: timeout
+https://offset.com,,
+https://ftc.gov,,
 https://venturebeat.com,,
-https://trustpilot.com,,Error: timeout
+https://trustpilot.com,https://trustpilot.com/manifest.json,
 https://so-net.ne.jp,,Error: timeout
-https://ebay.co.uk,,Error: timeout
+https://ebay.co.uk,https://www.ebay.co.uk/manifest.json,
 https://jamanetwork.com,,
-https://en.wordpress.com,,Error: timeout
+https://en.wordpress.com,,
 https://standard.co.uk,,Error: timeout
 https://linktr.ee,https://linktr.ee/manifest.webmanifest,
 https://ovh.net,,Error: fetch
 https://orkut.com.br,,Error: fetch
 https://imageshack.com,,
 https://salesforce.com,,Error: timeout
-https://upenn.edu,,Error: timeout
+https://upenn.edu,,
 https://eonline.com,,Error: timeout
-https://dreamstime.com,,Error: timeout
+https://dreamstime.com,,
 https://ehow.com,,Error: timeout
 https://weather.com,https://weather.com/manifest.json,
-https://boston.com,,Error: timeout
+https://boston.com,https://www.boston.com/wp-content/themes/bdc-2020/manifest.json,
 https://ssl-images-amazon.com,,Error: fetch
-https://adweek.com,,Error: timeout
+https://adweek.com,https://adweek.com/manifest.webmanifest,
 https://over-blog-kiwi.com,,Error: timeout
 https://nba.com,,Error: timeout
 https://faz.net,,Error: timeout
@@ -419,34 +419,34 @@ https://example.com,,
 https://iso.org,,Error: timeout
 https://steamcommunity.com,,
 https://g.co,,
-https://nvidia.com,,Error: timeout
+https://nvidia.com,,Error: fetch
 https://about.me,,
 https://usnews.com,,Error: timeout
 https://depositfiles.com,,
 https://video.google.com,,Error: timeout
-https://princeton.edu,,Error: timeout
+https://princeton.edu,https://princeton.edu/themes/custom/tony/icons/manifest.json,
 https://abc.com,,
-https://pinterest.co.uk,,Error: timeout
+https://pinterest.co.uk,https://pinterest.co.uk/manifest.json/,
 https://freepik.com,,Error: timeout
 https://alibaba.com,,Error: timeout
 https://goo.ne.jp,,Error: timeout
-https://usgs.gov,,Error: timeout
+https://usgs.gov,https://usgs.gov/sites/all/themes/usgs_palladium/favicons/manifest.json,
 https://ctvnews.ca,,Error: timeout
 https://namesilo.com,,
 https://sony.com,,Error: timeout
-https://thoughtco.com,,Error: timeout
+https://thoughtco.com,,
 https://amazon.ca,,Error: timeout
 https://state.gov,,Error: timeout
 https://billboard.com,,Error: timeout
 https://coursera.org,,Error: timeout
 https://thenextweb.com,,
-https://ucla.edu,,Error: timeout
+https://ucla.edu,,
 https://hbr.org,,
 https://ucoz.ru,,Error: timeout
 https://yandex.com,,
 https://nps.gov,,
 https://people.com,https://people.com/manifest.json,
-https://fifa.com,,Error: timeout
+https://fifa.com,https://fifa.com/site.webmanifest,
 https://howstuffworks.com,,Error: timeout
 https://liveinternet.ru,,Error: timeout
 https://cloud.google.com,https://cloud.google.com/_pwa/cloud/manifest.json,
@@ -454,8 +454,8 @@ https://com.com,,
 https://stores.jp,,
 https://allrecipes.com,,Error: timeout
 https://digitaltrends.com,,Error: timeout
-https://mystrikingly.com,,Error: timeout
-https://tiktok.com,,Error: timeout
+https://mystrikingly.com,,
+https://tiktok.com,,
 https://nifty.com,,Error: timeout
 https://scoop.it,,Error: timeout
 https://lifehacker.com,,
@@ -478,7 +478,7 @@ https://mixcloud.com,,Error: timeout
 https://salon.com,,Error: timeout
 https://qz.com,https://qz.com/public/meta/manifest.json,
 https://xda-developers.com,,Error: timeout
-https://cisco.com,,Error: timeout
+https://cisco.com,,Error: fetch
 https://columbia.edu,,Error: timeout
 https://scholar.google.com,,
 https://sendspace.com,,

@@ -16,7 +16,6 @@ const FETCH_MANIFEST_CONTENT = true;
 const MANIFEST_URL_RESULTS = new Map();
 const MANIFEST_JSON_RESULTS = new Map();
 
-let numFetched = 0;
 
 function getManifest(page, dom) {
   let document = dom.window.document;
@@ -33,6 +32,7 @@ function getManifest(page, dom) {
 
 if (FETCH_MANIFEST_URLS) {
   (async () => {
+    let numFetched = 0;
     const INPUT_PAGES = fs
       .readFileSync("input.csv", "utf8")
       .trim()
@@ -43,7 +43,7 @@ if (FETCH_MANIFEST_URLS) {
       });
     let promises = INPUT_PAGES.map(async (page) => {
       console.log("Fetching", page);
-      RESULTS.set(page, null);
+      MANIFEST_URL_RESULTS.set(page, null);
 
       let markup;
       let timedout = false;
@@ -61,16 +61,16 @@ if (FETCH_MANIFEST_URLS) {
           const dom = new JSDOM(markup, {
             url: page,
           });
-          RESULTS.set(page, getManifest(page, dom));
+          MANIFEST_URL_RESULTS.set(page, getManifest(page, dom));
         }
       } catch (e) {
-        RESULTS.set(page, timedout ? "Error: timeout" : "Error: fetch");
+        MANIFEST_URL_RESULTS.set(page, timedout ? "Error: timeout" : "Error: fetch");
       } finally {
         clearTimeout(timeout);
       }
     });
     await Promise.all(promises);
-    let output = [...RESULTS.entries()]
+    let output = [...MANIFEST_URL_RESULTS.entries()]
       .map(([page, manifest]) => {
         if (manifest && manifest.startsWith("Error")) {
           return `${page},,${manifest}`;
@@ -91,6 +91,8 @@ if (FETCH_MANIFEST_CONTENT) {
       .split("\n")
       .slice(0, NUM_TOP_PAGES)
       .filter((page) => page.split(",")[1]);
+
+    console.log(`${OUTPUT_PAGES.length} manifests`);
 
     for (let page of OUTPUT_PAGES) {
       console.log("Processing ", page, page.split(",")[1]);
