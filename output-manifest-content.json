@@ -1,4 +1,79 @@
 {
+  "https://youtube.com": {
+    "name": "YouTube",
+    "short_name": "YouTube",
+    "background_color": "#FFFFFF",
+    "display": "minimal-ui",
+    "start_url": "/?feature=ytca",
+    "scope": "/",
+    "icons": [
+      {
+        "src": "https://www.gstatic.com/youtube/img/branding/favicon/favicon_144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "https://www.gstatic.com/youtube/img/branding/favicon/favicon_192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "https://www.gstatic.com/youtube/img/web/monochrome/logo_16x16.png",
+        "sizes": "16x16",
+        "type": "image/png",
+        "purpose": "monochrome"
+      },
+      {
+        "src": "https://www.gstatic.com/youtube/img/web/monochrome/logo_32x32.png",
+        "sizes": "32x32",
+        "type": "image/png",
+        "purpose": "monochrome"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/i/googlematerialicons/video_youtube/v11/white-48dp/1x/gm_video_youtube_white_48dp.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "purpose": "monochrome"
+      },
+      {
+        "src": "https://www.gstatic.com/youtube/img/web/monochrome/logo_512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "monochrome"
+      }
+    ],
+    "theme_color": "#FF0000",
+    "gcm_sender_id": "402845223712",
+    "gcm_user_visible_only": true,
+    "related_applications": [],
+    "capture_links": "none",
+    "shortcuts": [
+      {
+        "name": "Subscriptions",
+        "url": "/feed/subscriptions?feature=app_shortcuts",
+        "icons": [
+          {
+            "src": "https://www.gstatic.com/youtube/img/web/shortcuts/subscriptions_512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any monochrome"
+          }
+        ]
+      },
+      {
+        "name": "Explore",
+        "url": "/feed/explore?feature=app_shortcuts",
+        "icons": [
+          {
+            "src": "https://www.gstatic.com/youtube/img/web/shortcuts/explore_512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any monochrome"
+          }
+        ]
+      }
+    ]
+  },
   "https://maps.google.com": {
     "name": "Google Maps",
     "short_name": "Google Maps",
@@ -708,6 +783,87 @@
     "background_color": "#ffffff",
     "display": "standalone"
   },
+  "https://news.google.com": {
+    "name": "Google News",
+    "short_name": "News",
+    "start_url": "/?lfhs=2",
+    "display": "standalone",
+    "theme_color": "white",
+    "icons": [
+      {
+        "src": "//ssl.gstatic.com/gnews/logo/google_news_192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "//ssl.gstatic.com/gnews/logo/google_news_512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      },
+      {
+        "src": "//ssl.gstatic.com/gnews/logo/google_news_1024.png",
+        "type": "image/png",
+        "sizes": "1024x1024"
+      },
+      {
+        "src": "//ssl.gstatic.com/gnews/logo/google_news_120.png",
+        "type": "image/png",
+        "sizes": "120x120"
+      },
+      {
+        "src": "//ssl.gstatic.com/gnews/logo/google_news_152.png",
+        "type": "image/png",
+        "sizes": "152x152"
+      },
+      {
+        "src": "//ssl.gstatic.com/gnews/logo/google_news_167.png",
+        "type": "image/png",
+        "sizes": "167x167"
+      },
+      {
+        "src": "//ssl.gstatic.com/gnews/logo/google_news_180.png",
+        "type": "image/png",
+        "sizes": "180x180"
+      },
+      {
+        "src": "//ssl.gstatic.com/gnews/logo/google_news_80.png",
+        "type": "image/png",
+        "sizes": "80x80"
+      },
+      {
+        "src": "//ssl.gstatic.com/gnews/logo/google_news_87.png",
+        "type": "image/png",
+        "sizes": "87x87"
+      },
+      {
+        "src": "//ssl.gstatic.com/gnews/logo/google_news_58.png",
+        "type": "image/png",
+        "sizes": "58x58"
+      },
+      {
+        "src": "//ssl.gstatic.com/gnews/logo/google_news_60.png",
+        "type": "image/png",
+        "sizes": "60x60"
+      },
+      {
+        "src": "//ssl.gstatic.com/gnews/logo/google_news_40.png",
+        "type": "image/png",
+        "sizes": "40x40"
+      }
+    ],
+    "related_applications": [
+      {
+        "platform": "chromeos_play",
+        "id": "com.google.android.apps.magazines",
+        "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.magazines"
+      }
+    ],
+    "prefer_related_applications": true,
+    "gcm_sender_id": "1074226530620",
+    "gcm_user_visible_only": true,
+    "background_color": "white",
+    "android_package_name": "com.google.android.apps.magazines"
+  },
   "https://translate.google.com": {
     "name": "Google Translate",
     "short_name": "Google Translate",
@@ -823,6 +979,111 @@
     ],
     "prefer_related_applications": false
   },
+  "https://independent.co.uk": {
+    "theme_color": "#EF4280",
+    "background_color": "#fefefe",
+    "display": "standalone",
+    "orientation": "portrait",
+    "Scope": "/",
+    "start_url": "/",
+    "icons": [
+      {
+        "src": "img/shortcut-icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "img/shortcut-icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "splash_pages": null,
+    "name": "The Independent",
+    "short_name": "independent.co.uk"
+  },
+  "https://wired.com": {
+    "name": "WIRED",
+    "short_name": "WIRED",
+    "icons": [
+      {
+        "src": "/images/logos/w-icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/logos/w-icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/logos/w-icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "any",
+    "background_color": "#000000",
+    "theme_color": "#000000"
+  },
+  "https://wsj.com": {
+    "name": "The Wall Street Journal",
+    "short_name": "WSJ",
+    "lang": "en-US",
+    "display": "browser",
+    "description": "WSJ online coverage of breaking news and current headlines from the US and around the world. Top stories, photos, videos, detailed analysis and in-depth reporting.",
+    "related_applications": [
+      {
+        "platform": "play",
+        "url": "https://play.google.com/store/apps/details?id=wsj.reader_sp",
+        "id": "wsj.reader_sp"
+      },
+      {
+        "platform": "itunes",
+        "url": "https://itunes.apple.com/us/app/the-wall-street-journal/id364387007"
+      }
+    ],
+    "icons": [
+      {
+        "src": "https://s.wsj.net/media/wsj_launcher-icon-0-75x.png",
+        "sizes": "36x36",
+        "type": "image/png",
+        "density": 0.75
+      },
+      {
+        "src": "https://s.wsj.net/media/wsj_launcher-icon-1x.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "density": 1
+      },
+      {
+        "src": "https://s.wsj.net/media/wsj_launcher-icon-1-5x.png",
+        "sizes": "72x72",
+        "type": "image/png",
+        "density": 1.5
+      },
+      {
+        "src": "https://s.wsj.net/media/wsj_launcher-icon-2x.png",
+        "sizes": "96x96",
+        "type": "image/png",
+        "density": 2
+      },
+      {
+        "src": "https://s.wsj.net/media/wsj_launcher-icon-3x.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "density": 3
+      },
+      {
+        "src": "https://s.wsj.net/media/wsj_launcher-icon-4x.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "density": 4
+      }
+    ]
+  },
   "https://fandom.com": {
     "name": "Fandom",
     "icons": [],
@@ -896,6 +1157,9 @@
     "display": "standalone",
     "background_color": "white",
     "theme_color": "red"
+  },
+  "https://dailymail.co.uk": {
+    "gcm_sender_id": "103953800507"
   },
   "https://businessinsider.com": {
     "name": "Business Insider",
@@ -1240,6 +1504,25 @@
       }
     ]
   },
+  "https://nature.com": {
+    "name": "Nature",
+    "short_name": "",
+    "icons": [
+      {
+        "src": "/static/images/favicons/nature/android-chrome-192x192.208047fe79.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/images/favicons/nature/android-chrome-512x512.1bf70b9026.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#000000",
+    "background_color": "#000000",
+    "display": "standalone"
+  },
   "https://tools.google.com": {
     "name": "App",
     "icons": [
@@ -1322,6 +1605,97 @@
       }
     ]
   },
+  "https://lemonde.fr": {
+    "name": "Le Monde",
+    "short_name": "Le Monde",
+    "description": "Le Monde.fr - 1er site d'information. Les articles du journal et toute l'actualité en continu : International, France, Société, Economie, Culture, Environnement, Blogs ...",
+    "lang": "fr",
+    "icons": [
+      {
+        "src": "/dist/assets/img/logos/pwa-48.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "/dist/assets/img/logos/pwa-96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "/dist/assets/img/logos/pwa-192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/dist/assets/img/logos/pwa-256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "/dist/assets/img/logos/pwa-512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "/dist/assets/img/logos/maskable_icon_x48.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/dist/assets/img/logos/maskable_icon_x72.png",
+        "sizes": "72x72",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/dist/assets/img/logos/maskable_icon_x96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/dist/assets/img/logos/maskable_icon_x128.png",
+        "sizes": "128x128",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/dist/assets/img/logos/maskable_icon_x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/dist/assets/img/logos/maskable_icon_x384.png",
+        "sizes": "384x384",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/dist/assets/img/logos/maskable_icon_x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "related_applications": [
+      {
+        "platform": "play",
+        "id": "com.lemonde.androidapp",
+        "url": "https://play.google.com/store/apps/details?id=com.lemonde.androidapp&hl=fr"
+      },
+      {
+        "platform": "itunes",
+        "url": "https://itunes.apple.com/app/le-monde-linfo-en-continu/id294047850?mt=8"
+      }
+    ]
+  },
   "https://metro.co.uk": {
     "name": "Metro",
     "short_name": "Metro",
@@ -1395,6 +1769,40 @@
     "theme_color": "#FF1D46",
     "background_color": "#ffffff",
     "display": "standalone"
+  },
+  "https://spiegel.de": {
+    "name": "DER SPIEGEL",
+    "short_name": "SPIEGEL",
+    "description": "Deutschlands 'führende' Nachrichtenseite. Alles Wichtige aus Politik, Wirtschaft, Sport, Kultur, Wissenschaft, Technik und mehr.",
+    "lang": "de-DE",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "theme_color": "#e64415",
+    "background_color": "#e64415",
+    "icons": [
+      {
+        "src": "./../images/icons/icon-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "./../images/icons/icon-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "prefer_related_applications": true,
+    "related_applications": [
+      {
+        "platform": "web",
+        "url": "https://www.spiegel.de/"
+      },
+      {
+        "platform": "play",
+        "id": "de.spiegel.android.app.spon"
+      }
+    ]
   },
   "https://rambler.ru": {
     "lang": "ru-RU",
@@ -1685,6 +2093,59 @@
         "src": "/assets/static/images/surveymonkey/favicon-512.png",
         "type": "image/png",
         "sizes": "512x512"
+      }
+    ]
+  },
+  "https://netlify.app": {
+    "name": "Netlify",
+    "icons": [
+      {
+        "src": "/img/global/favicon/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/img/global/favicon/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "display": "standalone"
+  },
+  "https://welt.de": {
+    "name": "WELT - News",
+    "short_name": "WELT - News",
+    "description": "Nachrichten, Hintergründe, News & N24-Videos",
+    "dir": "ltr",
+    "lang": "de",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "theme_color": "#003a5a",
+    "background_color": "#003a5a",
+    "icons": [
+      {
+        "src": "/assets/resources/manifest/manifest-icon-192-930934898f.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/assets/resources/manifest/manifest-icon-512-7e837d0f62.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "prefer_related_applications": true,
+    "related_applications": [
+      {
+        "platform": "web",
+        "url": "https://www.welt.de"
+      },
+      {
+        "platform": "play",
+        "id": "de.cellular.n24hybrid"
       }
     ]
   },
@@ -2023,6 +2484,24 @@
       }
     ]
   },
+  "https://buzzfeed.com": {
+    "name": "BuzzFeed",
+    "short_name": "BuzzFeed",
+    "theme_color": "#ee3322",
+    "icons": [
+      {
+        "src": "/static-assets/img/buzzfeed_webapp_logo.0ea3c59fd2aeb164cfdfe77e74ab3aa2.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      }
+    ],
+    "related_applications": [
+      {
+        "platform": "play",
+        "id": "com.buzzfeed.android"
+      }
+    ]
+  },
   "https://abc.es": {
     "short_name": "ABC.es",
     "lang": "es",
@@ -2137,6 +2616,12 @@
         "type": "image/png"
       }
     ]
+  },
+  "https://wikia.com": {
+    "name": "Fandom",
+    "icons": [],
+    "theme_color": "#ffffff",
+    "display": "standalone"
   },
   "https://sedo.com": {
     "name": "Sedo",
@@ -2463,6 +2948,15 @@
     "start_url": "/?utm_source=homescreen",
     "background_color": "#ffffff",
     "theme_color": "#ffffff"
+  },
+  "https://hollywoodreporter.com": {
+    "name": "The Hollywood Reporter",
+    "start_url": "https://www.hollywoodreporter.com/",
+    "display": "minimal-ui",
+    "dir": "ltr",
+    "lang": "en-US",
+    "background_color": "#fff",
+    "theme_color": "#fff"
   },
   "https://box.com": {
     "name": "Box",
@@ -2881,6 +3375,58 @@
     "theme_color": "#ffffff",
     "scope": "/"
   },
+  "https://standard.co.uk": {
+    "name": "Evening Standard",
+    "short_name": "Evening Standard",
+    "theme_color": "#dc062b",
+    "background_color": "#dc062b",
+    "display": "standalone",
+    "Scope": "/",
+    "start_url": "/",
+    "icons": [
+      {
+        "src": "img/shortcut-icons/72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "img/shortcut-icons/96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "img/shortcut-icons/128x128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "img/shortcut-icons/144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "img/shortcut-icons/152x152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "img/shortcut-icons/192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "img/shortcut-icons/384x384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "img/shortcut-icons/512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "splash_pages": null
+  },
   "https://weather.com": {
     "name": "The Weather Channel",
     "short_name": "Weather.com",
@@ -2997,6 +3543,52 @@
     "display": "fullscreen",
     "scope": "/",
     "theme_color": "#000"
+  },
+  "https://nba.com": {
+    "name": "NBA: Live Games & Scores",
+    "short_name": "NBA",
+    "description": "Follow the action on NBA scores, schedules, stats, news, teams, and players. Buy tickets or watch the games anywhere with NBA League Pass.",
+    "display": "standalone",
+    "background_color": "#051c2d",
+    "theme_color": "#ffffff",
+    "prefer_related_applications": true,
+    "related_applications": [
+      {
+        "platform": "play",
+        "id": "com.nbaimd.gametime.nba2011"
+      }
+    ],
+    "icons": [
+      {
+        "src": "/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  },
+  "https://focus.de": {
+    "name": "FOCUS Online",
+    "short_name": "focus.de",
+    "icons": [
+      {
+        "src": "https://p5.focus.de/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "https://p5.focus.de/android-chrome-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
   },
   "https://princeton.edu": {
     "name": "",
@@ -3208,6 +3800,116 @@
     "scope": "/",
     "theme_color": "#2B2B5C"
   },
+  "https://cloud.google.com": {
+    "name": "Google Cloud",
+    "short_name": "Google Cloud",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#fff",
+    "theme_color": "#4285f4",
+    "icons": [
+      {
+        "src": "icons/icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "splash_pages": null
+  },
+  "https://allrecipes.com": {
+    "short_name": "Meredith",
+    "name": "Meredith Templates",
+    "icons": [
+      {
+        "src": "/img/favicons/favicon-144.png",
+        "type": "image/png",
+        "sizes": "144x144"
+      },
+      {
+        "src": "/img/favicons/favicon-192.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "white",
+    "theme_color": "blue",
+    "gcm_sender_id": "103953800507"
+  },
+  "https://tiktok.com": {
+    "icons": [
+      {
+        "src": "https://sf16-sg.tiktokcdn.com/obj/eden-sg/uvkuhyieh7lpqpbj/pwa/512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "https://sf16-sg.tiktokcdn.com/obj/eden-sg/uvkuhyieh7lpqpbj/pwa/384x384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "https://sf16-sg.tiktokcdn.com/obj/eden-sg/uvkuhyieh7lpqpbj/pwa/256x256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "https://sf16-sg.tiktokcdn.com/obj/eden-sg/uvkuhyieh7lpqpbj/pwa/192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "https://sf16-sg.tiktokcdn.com/obj/eden-sg/uvkuhyieh7lpqpbj/pwa/128x128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      }
+    ],
+    "name": "TikTok",
+    "short_name": "TikTok",
+    "orientation": "portrait",
+    "display": "minimal-ui",
+    "start_url": "/foryou",
+    "description": "TikTok PWA",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff"
+  },
   "https://calameo.com": {
     "name": "My app",
     "icons": [
@@ -3298,6 +4000,57 @@
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
     "display": "standalone"
+  },
+  "https://theglobeandmail.com": {
+    "name": "The Globe and Mail",
+    "short_name": "Globe and Mail",
+    "background_color": "#da161f",
+    "theme_color": "#da161f",
+    "start_url": "/",
+    "display": "browser",
+    "orientation": "natural",
+    "icons": [
+      {
+        "src": "/resources/assets/meta/android-chrome-36x36.png?v=Kmm8033Jyy",
+        "sizes": "36x36",
+        "type": "image/png",
+        "density": 0.75
+      },
+      {
+        "src": "/resources/assets/meta/android-chrome-48x48.png?v=Kmm8033Jyy",
+        "sizes": "48x48",
+        "type": "image/png",
+        "density": 1
+      },
+      {
+        "src": "/resources/assets/meta/android-chrome-72x72.png?v=Kmm8033Jyy",
+        "sizes": "72x72",
+        "type": "image/png",
+        "density": 1.5
+      },
+      {
+        "src": "/resources/assets/meta/android-chrome-96x96.png?v=Kmm8033Jyy",
+        "sizes": "96x96",
+        "type": "image/png",
+        "density": 2
+      },
+      {
+        "src": "/resources/assets/meta/android-chrome-144x144.png?v=Kmm8033Jyy",
+        "sizes": "144x144",
+        "type": "image/png",
+        "density": 3
+      },
+      {
+        "src": "/resources/assets/meta/android-chrome-192x192.png?v=Kmm8033Jyy",
+        "sizes": "192x192",
+        "type": "image/png",
+        "density": 4
+      }
+    ],
+    "permissions": [
+      "gcm"
+    ],
+    "gcm_sender_id": "124352978378"
   },
   "https://si.edu": {
     "name": "",
