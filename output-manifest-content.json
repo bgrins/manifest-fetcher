@@ -1,0 +1,2385 @@
+{
+  "https://youtube.com": {
+    "name": "YouTube",
+    "short_name": "YouTube",
+    "background_color": "#FFFFFF",
+    "display": "minimal-ui",
+    "start_url": "/?feature=ytca",
+    "scope": "/",
+    "icons": [
+      {
+        "src": "https://www.gstatic.com/youtube/img/branding/favicon/favicon_144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "https://www.gstatic.com/youtube/img/branding/favicon/favicon_192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "https://www.gstatic.com/youtube/img/web/monochrome/logo_16x16.png",
+        "sizes": "16x16",
+        "type": "image/png",
+        "purpose": "monochrome"
+      },
+      {
+        "src": "https://www.gstatic.com/youtube/img/web/monochrome/logo_32x32.png",
+        "sizes": "32x32",
+        "type": "image/png",
+        "purpose": "monochrome"
+      },
+      {
+        "src": "https://fonts.gstatic.com/s/i/googlematerialicons/video_youtube/v11/white-48dp/1x/gm_video_youtube_white_48dp.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "purpose": "monochrome"
+      },
+      {
+        "src": "https://www.gstatic.com/youtube/img/web/monochrome/logo_512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "monochrome"
+      }
+    ],
+    "theme_color": "#FF0000",
+    "gcm_sender_id": "402845223712",
+    "gcm_user_visible_only": true,
+    "related_applications": [],
+    "capture_links": "none",
+    "shortcuts": [
+      {
+        "name": "Subscriptions",
+        "url": "/feed/subscriptions?feature=app_shortcuts",
+        "icons": [
+          {
+            "src": "https://www.gstatic.com/youtube/img/web/shortcuts/subscriptions_512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any monochrome"
+          }
+        ]
+      },
+      {
+        "name": "Explore",
+        "url": "/feed/explore?feature=app_shortcuts",
+        "icons": [
+          {
+            "src": "https://www.gstatic.com/youtube/img/web/shortcuts/explore_512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any monochrome"
+          }
+        ]
+      }
+    ]
+  },
+  "https://uol.com.br": {
+    "//": "It is the same for all projects, this is not your project's sender ID",
+    "gcm_sender_id": "103953800507",
+    "name": "UOL - O melhor conteúdo",
+    "short_name": "UOL",
+    "icons": [
+      {
+        "src": "https://hp.imguol.com.br/c/home/layout/camaleao/app/36x36.png",
+        "sizes": "36x36",
+        "type": "image/png",
+        "density": 0.75
+      },
+      {
+        "src": "https://hp.imguol.com.br/c/home/layout/camaleao/app/48x48.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "density": 1
+      },
+      {
+        "src": "https://hp.imguol.com.br/c/home/layout/camaleao/app/72x72.png",
+        "sizes": "72x72",
+        "type": "image/png",
+        "density": 1.5
+      },
+      {
+        "src": "https://hp.imguol.com.br/c/home/layout/camaleao/app/96x96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+        "density": 2
+      },
+      {
+        "src": "https://hp.imguol.com.br/c/home/layout/camaleao/app/144x144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "density": 3
+      },
+      {
+        "src": "https://hp.imguol.com.br/c/home/layout/camaleao/app/192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "density": 4
+      },
+      {
+        "src": "https://hp.imguol.com.br/c/home/layout/camaleao/app/512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ],
+    "start_url": "https://www.uol.com.br/?utm_source=pwa&utm_medium=pwa&utm_campaign=home",
+    "scope": "/",
+    "display": "standalone",
+    "background_color": "#1a1a1a",
+    "theme_color": "#1a1a1a"
+  },
+  "https://facebook.com": {
+    "gcm_sender_id": "15057814354",
+    "gcm_user_visible_only": true,
+    "short_name": "Facebook",
+    "name": "Facebook",
+    "icons": [
+      {
+        "src": "https://static.xx.fbcdn.net/rsrc.php/v3/ys/r/EdXnHjzXA5W.png",
+        "sizes": "325x325",
+        "type": "image/png"
+      },
+      {
+        "src": "https://static.xx.fbcdn.net/rsrc.php/v3/yi/r/ctea_gkYuj3.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "https://static.xx.fbcdn.net/rsrc.php/v3/yc/r/j9WrD251LjG.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "https://static.xx.fbcdn.net/rsrc.php/v3/yv/r/54cMBAu8YEP.png",
+        "sizes": "64x64",
+        "type": "image/png"
+      },
+      {
+        "src": "https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/tTklKS6ed2y.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      }
+    ],
+    "related_applications": [
+      {
+        "platform": "play",
+        "id": "com.facebook.katana"
+      },
+      {
+        "platform": "play",
+        "id": "com.facebook.lite"
+      },
+      {
+        "platform": "play",
+        "id": "com.facebook.orca"
+      },
+      {
+        "platform": "play",
+        "id": "com.facebook.mlite"
+      }
+    ],
+    "prefer_related_applications": false
+  },
+  "https://github.com": {
+    "name": "GitHub",
+    "short_name": "GitHub",
+    "icons": [
+      {
+        "sizes": "114x114",
+        "src": "https://github.githubassets.com/apple-touch-icon-114x114.png"
+      },
+      {
+        "sizes": "120x120",
+        "src": "https://github.githubassets.com/apple-touch-icon-120x120.png"
+      },
+      {
+        "sizes": "144x144",
+        "src": "https://github.githubassets.com/apple-touch-icon-144x144.png"
+      },
+      {
+        "sizes": "152x152",
+        "src": "https://github.githubassets.com/apple-touch-icon-152x152.png"
+      },
+      {
+        "sizes": "180x180",
+        "src": "https://github.githubassets.com/apple-touch-icon-180x180.png"
+      },
+      {
+        "sizes": "57x57",
+        "src": "https://github.githubassets.com/apple-touch-icon-57x57.png"
+      },
+      {
+        "sizes": "60x60",
+        "src": "https://github.githubassets.com/apple-touch-icon-60x60.png"
+      },
+      {
+        "sizes": "72x72",
+        "src": "https://github.githubassets.com/apple-touch-icon-72x72.png"
+      },
+      {
+        "sizes": "76x76",
+        "src": "https://github.githubassets.com/apple-touch-icon-76x76.png"
+      },
+      {
+        "src": "https://github.githubassets.com/app-icon-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "https://github.githubassets.com/app-icon-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "prefer_related_applications": true,
+    "related_applications": [
+      {
+        "platform": "play",
+        "url": "https://play.google.com/store/apps/details?id=com.github.android",
+        "id": "com.github.android"
+      }
+    ]
+  },
+  "https://slideshare.net": {
+    "short_name": "SlideShare",
+    "name": "SlideShare",
+    "icons": [
+      {
+        "src": "images/slideshare_icon.png",
+        "sizes": "110x110",
+        "type": "image/png"
+      },
+      {
+        "src": "images/app_icon_square_144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      }
+    ],
+    "display": "browser"
+  },
+  "https://issuu.com": {
+    "name": "Issuu",
+    "short_name": "Issuu",
+    "icons": [
+      {
+        "src": "/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#f26f65",
+    "background_color": "#f26f65",
+    "display": "standalone"
+  },
+  "https://policies.google.com": {
+    "name": "Privacy & Terms – Google",
+    "short_name": "Privacy & Terms – Google",
+    "start_url": "/?lfhs=2",
+    "display": "standalone",
+    "icons": [
+      {
+        "src": "//ssl.gstatic.com/policies/favicon.ico",
+        "type": "image/*",
+        "sizes": "32x32"
+      }
+    ]
+  },
+  "https://terra.com.br": {
+    "lang": "pt-BR",
+    "short_name": "Terra",
+    "name": "Terra",
+    "description": "Veja no Terra as últimas notícias e as melhores coberturas ao vivo do Brasil e do Mundo, Esportes, Diversão, Vida e Estilo.",
+    "icons": [
+      {
+        "src": "https://s1.trrsf.com/fe/zaz-morph/_img/launcher96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "https://s1.trrsf.com/fe/zaz-morph/_img/launcher192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "https://s1.trrsf.com/fe/zaz-morph/_img/launcher256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "https://s1.trrsf.com/fe/zaz-morph/_img/launcher512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "https://s1.trrsf.com/fe/zaz-morph/_img/launcher512_square.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+      }
+    ],
+    "start_url": "https://www.terra.com.br/?utm_source=homescreen",
+    "scope": "/",
+    "display": "standalone",
+    "background_color": "#ff7212",
+    "theme_color": "#ff7212",
+    "gcm_sender_id": "103953800507"
+  },
+  "https://jimdofree.com": {
+    "name": "Jimdo",
+    "short_name": "Jimdo",
+    "description": null,
+    "dir": "auto",
+    "lang": "en-US",
+    "display": "standalone",
+    "orientation": "any",
+    "start_url": "/",
+    "background_color": "#fff",
+    "theme_color": "#000",
+    "icons": [
+      {
+        "src": "/icons/android-chrome-36x36.png",
+        "sizes": "36x36",
+        "type": "image/png"
+      },
+      {
+        "src": "/icons/android-chrome-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "/icons/android-chrome-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "/icons/android-chrome-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "/icons/android-chrome-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "/icons/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/icons/android-chrome-256x256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "/icons/android-chrome-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "/icons/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  },
+  "https://bbc.co.uk": {
+    "short_name": "BBC",
+    "name": "BBC",
+    "icons": [
+      {
+        "type": "image/png",
+        "sizes": "16x16",
+        "src": "icon.cf4fb5250b950df73fff7da3f6cf507c67acb0f1.png"
+      },
+      {
+        "type": "image/png",
+        "sizes": "48x48",
+        "src": "icon.808e5293bfe65fcc7d655dd86aed00c1c618da3d.png"
+      },
+      {
+        "type": "image/png",
+        "sizes": "64x64",
+        "src": "icon.fb7dd1242555db7c9b348956fafa87d1a3ec5575.png"
+      },
+      {
+        "type": "image/png",
+        "sizes": "72x72",
+        "src": "icon.444399d39e760f1d378b927dccd8fb3253d66a9e.png"
+      },
+      {
+        "type": "image/png",
+        "sizes": "80x80",
+        "src": "icon.a74d7895e0b578d0e0fcc9f41f75bf11d6a92feb.png"
+      },
+      {
+        "type": "image/png",
+        "sizes": "96x96",
+        "src": "icon.fe2f5852e3525f31ca9d9e833a8ef397d27ff557.png"
+      },
+      {
+        "type": "image/png",
+        "sizes": "120x120",
+        "src": "icon.a9fa0f26c831911109023012d33b7acc8d59b828.png"
+      },
+      {
+        "type": "image/png",
+        "sizes": "128x128",
+        "src": "icon.399a3f999426ad4519f9ce912760f347c863ce9f.png"
+      },
+      {
+        "type": "image/png",
+        "sizes": "144x144",
+        "src": "icon.b10c06b38c95a000ccb4097e53e1ce324f2a03c2.png"
+      },
+      {
+        "type": "image/png",
+        "sizes": "152x152",
+        "src": "icon.9327c917e47811505f83a2bcb92eb0539ba13696.png"
+      },
+      {
+        "type": "image/png",
+        "sizes": "192x192",
+        "src": "icon.f361241f55d5cf86e7b68b4e4ea623aa2e497c4e.png"
+      },
+      {
+        "type": "image/png",
+        "sizes": "384x384",
+        "src": "icon.8b70d467d37237c17e52651ca04bc495f8f1da0f.png"
+      },
+      {
+        "type": "image/png",
+        "sizes": "512x512",
+        "src": "icon.5500f978d264018e7c005c0e7424581f72edc68d.png"
+      }
+    ],
+    "start_url": "https://www.bbc.co.uk/",
+    "background_color": "#FFFFFF",
+    "display": "standalone",
+    "scope": "https://www.bbc.co.uk/",
+    "theme_color": "#FFFFFF"
+  },
+  "https://who.int": {
+    "dir": "ltr",
+    "lang": "English",
+    "name": "World Health Organization",
+    "short_name": "WHO",
+    "scope": "/",
+    "display": "minimal-ui",
+    "start_url": "https://www.who.int/",
+    "background_color": "transparent",
+    "theme_color": "transparent",
+    "description": "WHO's primary role is to direct international health within the United Nations' system and to lead partners in global health responses.",
+    "orientation": "any",
+    "related_applications": [
+      {
+        "platform": "play",
+        "url": "https://play.google.com/store/apps/details?id=org.who.infoapp",
+        "id": "org.who.infoapp"
+      },
+      {
+        "platform": "itunes",
+        "url": "https://apps.apple.com/us/app/id895463794"
+      }
+    ],
+    "prefer_related_applications": false,
+    "icons": [
+      {
+        "src": "/ResourcePackages/WHO/assets/icons/android-icon-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/ResourcePackages/WHO/assets/icons/apple-icon-180x180.png",
+        "type": "image/png",
+        "sizes": "180x180"
+      },
+      {
+        "src": "/ResourcePackages/WHO/assets/icons/apple-icon-152x152.png",
+        "type": "image/png",
+        "sizes": "152x152"
+      },
+      {
+        "src": "/ResourcePackages/WHO/assets/icons/apple-icon-144x144.png",
+        "type": "image/png",
+        "sizes": "144x144"
+      },
+      {
+        "src": "/ResourcePackages/WHO/assets/icons/apple-icon-120x120.png",
+        "type": "image/png",
+        "sizes": "120x120"
+      },
+      {
+        "src": "/ResourcePackages/WHO/assets/icons/apple-icon-114x114.png",
+        "type": "image/png",
+        "sizes": "114x114"
+      },
+      {
+        "src": "/ResourcePackages/WHO/assets/icons/favicon-96x96.png",
+        "type": "image/png",
+        "sizes": "96x96"
+      },
+      {
+        "src": "/ResourcePackages/WHO/assets/icons/apple-icon-76x76.png",
+        "type": "image/png",
+        "sizes": "76x76"
+      },
+      {
+        "src": "/ResourcePackages/WHO/assets/icons/apple-icon-72x72.png",
+        "type": "image/png",
+        "sizes": "72x72"
+      },
+      {
+        "src": "/ResourcePackages/WHO/assets/icons/apple-icon-60x60.png",
+        "type": "image/png",
+        "sizes": "60x60"
+      },
+      {
+        "src": "/ResourcePackages/WHO/assets/icons/apple-icon-57x57.png",
+        "type": "image/png",
+        "sizes": "57x57"
+      },
+      {
+        "src": "/ResourcePackages/WHO/assets/icons/favicon-32x32.png",
+        "type": "image/png",
+        "sizes": "32x32"
+      },
+      {
+        "src": "/ResourcePackages/WHO/assets/icons/favicon-16x16.png",
+        "type": "image/png",
+        "sizes": "16x16"
+      }
+    ],
+    "url": "https://www.who.int",
+    "screenshots": []
+  },
+  "https://www.yahoo.com": {
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "gcm_user_visible_only": true,
+    "icons": [
+      {
+        "sizes": "48x48",
+        "src": "https://s.yimg.com/cv/apiv2/09062018/manifest/yahoo_install_48.png",
+        "type": "image/png"
+      },
+      {
+        "sizes": "72x72",
+        "src": "https://s.yimg.com/cv/apiv2/09062018/manifest/yahoo_install_72.png",
+        "type": "image/png"
+      },
+      {
+        "sizes": "96x96",
+        "src": "https://s.yimg.com/cv/apiv2/09062018/manifest/yahoo_install_96.png",
+        "type": "image/png"
+      },
+      {
+        "sizes": "128x128",
+        "src": "https://s.yimg.com/cv/apiv2/09062018/manifest/yahoo_install_128.png",
+        "type": "image/png"
+      },
+      {
+        "sizes": "144x144",
+        "src": "https://s.yimg.com/cv/apiv2/09062018/manifest/yahoo_install_144.png",
+        "type": "image/png"
+      },
+      {
+        "sizes": "152x152",
+        "src": "https://s.yimg.com/cv/apiv2/09062018/manifest/yahoo_install_152.png",
+        "type": "image/png"
+      },
+      {
+        "sizes": "192x192",
+        "src": "https://s.yimg.com/cv/apiv2/09062018/manifest/yahoo_install_192.png",
+        "type": "image/png"
+      },
+      {
+        "sizes": "384x384",
+        "src": "https://s.yimg.com/cv/apiv2/09062018/manifest/yahoo_install_384.png",
+        "type": "image/png"
+      },
+      {
+        "sizes": "512x512",
+        "src": "https://s.yimg.com/cv/apiv2/09062018/manifest/yahoo_install_512.png",
+        "type": "image/png"
+      }
+    ],
+    "name": "Yahoo",
+    "orientation": "portrait",
+    "permissions": [
+      "gcm"
+    ],
+    "android_package_name": "com.yahoo.www.twa",
+    "prefer_related_applications": true,
+    "related_applications": [
+      {
+        "id": "com.yahoo.www.twa",
+        "platform": "chromeos_play"
+      }
+    ],
+    "short_name": "Yahoo",
+    "start_url": "/?start_url=homescreenicon&requesttype=appshell&apptype=pwa",
+    "theme_color": "#ffffff"
+  },
+  "https://developers.google.com": {
+    "name": "Google Developers",
+    "short_name": "Google Developers",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#fff",
+    "theme_color": "#fff",
+    "icons": [
+      {
+        "src": "icons/icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "splash_pages": null
+  },
+  "https://dailymotion.com": {
+    "name": "App",
+    "icons": [
+      {
+        "src": "/android-icon-36x36.png",
+        "sizes": "36x36",
+        "type": "image/png",
+        "density": "0.75"
+      },
+      {
+        "src": "/android-icon-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "density": "1.0"
+      },
+      {
+        "src": "/android-icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png",
+        "density": "1.5"
+      },
+      {
+        "src": "/android-icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+        "density": "2.0"
+      },
+      {
+        "src": "/android-icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "density": "3.0"
+      },
+      {
+        "src": "/android-icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "density": "4.0"
+      }
+    ]
+  },
+  "https://opera.com": {
+    "name": "Opera",
+    "short_name": "Opera",
+    "icons": [
+      {
+        "src": "/static/assets/images/favicon/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/assets/images/favicon/android-chrome-256x256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+  },
+  "https://translate.google.com": {
+    "name": "Google Translate",
+    "short_name": "Google Translate",
+    "start_url": "/?lfhs=2",
+    "display": "standalone",
+    "theme_color": "#4285F4",
+    "icons": [
+      {
+        "src": "//ssl.gstatic.com/translate/favicon.ico",
+        "type": "image/*",
+        "sizes": "64x64"
+      }
+    ]
+  },
+  "https://aol.com": {
+    "name": "Aol",
+    "icons": [
+      {
+        "src": "https://s.yimg.com/cv/apiv2/aolfp/images/favicon/android-chrome-36x36.png",
+        "sizes": "36x36",
+        "type": "image/png",
+        "density": 0.75
+      },
+      {
+        "src": "https://s.yimg.com/cv/apiv2/aolfp/images/favicon/android-chrome-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "density": 1
+      },
+      {
+        "src": "https://s.yimg.com/cv/apiv2/aolfp/images/favicon/android-chrome-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png",
+        "density": 1.5
+      },
+      {
+        "src": "https://s.yimg.com/cv/apiv2/aolfp/images/favicon/android-chrome-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+        "density": 2
+      },
+      {
+        "src": "https://s.yimg.com/cv/apiv2/aolfp/images/favicon/android-chrome-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "density": 3
+      },
+      {
+        "src": "https://s.yimg.com/cv/apiv2/aolfp/images/favicon/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "density": 4
+      }
+    ],
+    "theme_color": "#3399ff",
+    "background_color": "#3399ff",
+    "start_url": "/",
+    "display": "standalone"
+  },
+  "https://news.yahoo.com": {
+    "name": "Yahoo",
+    "gcm_sender_id": "972471620958"
+  },
+  "https://fb.com": {
+    "gcm_sender_id": "15057814354",
+    "gcm_user_visible_only": true,
+    "short_name": "Facebook",
+    "name": "Facebook",
+    "icons": [
+      {
+        "src": "https://static.xx.fbcdn.net/rsrc.php/v3/ys/r/EdXnHjzXA5W.png",
+        "sizes": "325x325",
+        "type": "image/png"
+      },
+      {
+        "src": "https://static.xx.fbcdn.net/rsrc.php/v3/yi/r/ctea_gkYuj3.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "https://static.xx.fbcdn.net/rsrc.php/v3/yc/r/j9WrD251LjG.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "https://static.xx.fbcdn.net/rsrc.php/v3/yv/r/54cMBAu8YEP.png",
+        "sizes": "64x64",
+        "type": "image/png"
+      },
+      {
+        "src": "https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/tTklKS6ed2y.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      }
+    ],
+    "related_applications": [
+      {
+        "platform": "play",
+        "id": "com.facebook.katana"
+      },
+      {
+        "platform": "play",
+        "id": "com.facebook.lite"
+      },
+      {
+        "platform": "play",
+        "id": "com.facebook.orca"
+      },
+      {
+        "platform": "play",
+        "id": "com.facebook.mlite"
+      }
+    ],
+    "prefer_related_applications": false
+  },
+  "https://fandom.com": {
+    "name": "Fandom",
+    "icons": [],
+    "theme_color": "#ffffff",
+    "display": "standalone"
+  },
+  "https://mirror.co.uk": {
+    "name": "Mirror",
+    "short_name": "Top Stories",
+    "description": "Mirror",
+    "icons": [
+      {
+        "src": "https://s2-prod.mirror.co.uk/@trinitymirrordigital/chameleon-branding/publications/mirror/img/icon-mirror-circle.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "https://s2-prod.mirror.co.uk/@trinitymirrordigital/chameleon-branding/publications/mirror/img/icon-mirror-512-circle.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      },
+      {
+        "src": "https://s2-prod.mirror.co.uk/@trinitymirrordigital/chameleon-branding/publications/mirror/img/icon-mirror-192-general.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "https://s2-prod.mirror.co.uk/@trinitymirrordigital/chameleon-branding/publications/mirror/img/icon-mirror-512-general.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/#source=pwa",
+    "display": "standalone",
+    "scope": "/",
+    "push_options": {
+      "icon": "https://s2-prod.mirror.co.uk/@trinitymirrordigital/chameleon-branding/publications/mirror/img/icon-mirror.png",
+      "badge": "https://s2-prod.mirror.co.uk/@trinitymirrordigital/chameleon-branding/publications/mirror/img/badge-mirror.png",
+      "tagName": "web_sections_general",
+      "appKey": "gN76xwKsRiOVd2MC6vAatQ",
+      "token": "MTpnTjc2eHdLc1JpT1ZkMk1DNnZBYXRROmdsY1k2V0YxRFI1X1g2SW5mTVR1YlAtX2JvVXVuZDZZZ3JtX1JRMmp4T1E",
+      "vapidKey": "BI7MdL0GTRxWItGNgYH9-Ievvv89PA1fS6GnS6GMbEo7gpRLhlaxavxCsahFjMSLo-p-rpFEEXeJaicd1hYfVcs="
+    },
+    "related_applications": [
+      {
+        "platform": "play",
+        "id": "com.mirror.news",
+        "url": "https://smarturl.it/mirrorBanner",
+        "icon": "https://s2-prod.mirror.co.uk/@trinitymirrordigital/chameleon-branding/publications/mirror/img/icon-mirror.png"
+      }
+    ],
+    "background_color": "#E90E0E",
+    "theme_color": "#000000"
+  },
+  "https://time.com": {
+    "short_name": "TIME",
+    "name": "TIME",
+    "icons": [
+      {
+        "src": "/img/favicons/favicon-144.png",
+        "type": "image/png",
+        "sizes": "144x144"
+      },
+      {
+        "src": "/img/favicons/favicon-192.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "white",
+    "theme_color": "red"
+  },
+  "https://businessinsider.com": {
+    "name": "Business Insider",
+    "short_name": "BI",
+    "icons": [
+      {
+        "src": "https://www.businessinsider.com/public/assets/BI/US/favicons/android-chrome-192x192.png?v=2021-03",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "https://www.businessinsider.com/public/assets/BI/US/favicons/android-chrome-512x512.png?v=2021-03",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#096ffa",
+    "background_color": "#096ffa",
+    "display": "standalone"
+  },
+  "https://ebay.com": {
+    "background_color": "#f5f5f5",
+    "gcm_sender_id": "103953800507",
+    "display": "standalone",
+    "icons": [
+      {
+        "src": "https://ir.ebaystatic.com/cr/v/c1/chauffeur/pwa-app-icons/v1/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "https://ir.ebaystatic.com/cr/v/c1/chauffeur/pwa-app-icons/v1/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "purpose": "maskable",
+        "src": "https://ir.ebaystatic.com/cr/v/c1/chauffeur/pwa-app-icons/v1/icon-192x192-maskable.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "purpose": "maskable",
+        "src": "https://ir.ebaystatic.com/cr/v/c1/chauffeur/pwa-app-icons/v1/icon-512x512-maskable.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "name": "eBay",
+    "short_name": "eBay",
+    "start_url": "https://www.ebay.com/",
+    "theme_color": "#ffffff",
+    "scope": "/"
+  },
+  "https://4shared.com": {
+    "gcm_sender_id": "376695005133"
+  },
+  "https://abcnews.go.com": {
+    "gcm_sender_id": "192693670050"
+  },
+  "https://soundcloud.com": {
+    "short_name": "SoundCloud",
+    "name": "SoundCloud",
+    "description": "SoundCloud - Play Music, Audio & New Songs",
+    "icons": [
+      {
+        "src": "/pwa-round-icon-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "any"
+      },
+      {
+        "src": "/pwa-round-icon-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "any"
+      },
+      {
+        "src": "/pwa-icon-192.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/pwa-icon-512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "maskable"
+      }
+    ],
+    "start_url": "/discover",
+    "scope": "/",
+    "display": "minimal-ui",
+    "background_color": "#FF5500",
+    "theme_color": "#FF5500"
+  },
+  "https://twitter.com": {
+    "background_color": "#ffffff",
+    "categories": [
+      "social",
+      "news",
+      "magazines"
+    ],
+    "description": "Get breaking news, politics, trending music, world events, sports scores, and the latest global news stories as they unfold - all with less data.",
+    "display": "standalone",
+    "gcm_sender_id": "49625052041",
+    "gcm_user_visible_only": true,
+    "icons": [
+      {
+        "src": "https://abs.twimg.com/responsive-web/client-web-legacy/icon-default.ee534d85.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "https://abs.twimg.com/responsive-web/client-web-legacy/icon-default-large.8e027b65.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "purpose": "maskable",
+        "src": "https://abs.twimg.com/responsive-web/client-web-legacy/icon-default-maskable.2fd29c85.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "purpose": "maskable",
+        "src": "https://abs.twimg.com/responsive-web/client-web-legacy/icon-default-maskable-large.ee2b7aa5.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "name": "Twitter",
+    "screenshots": [
+      {
+        "src": "https://abs.twimg.com/responsive-web/client-web-legacy/twitter-lite-data-saver-marketing.9343a915.png",
+        "sizes": "586x1041",
+        "type": "image/png"
+      },
+      {
+        "src": "https://abs.twimg.com/responsive-web/client-web-legacy/twitter-lite-explore-marketing.f1a09635.png",
+        "sizes": "586x1041",
+        "type": "image/png"
+      },
+      {
+        "src": "https://abs.twimg.com/responsive-web/client-web-legacy/twitter-lite-timeline-marketing.ff3ea885.png",
+        "sizes": "586x1041",
+        "type": "image/png"
+      }
+    ],
+    "share_target": {
+      "action": "compose/tweet",
+      "enctype": "multipart/form-data",
+      "method": "POST",
+      "params": {
+        "title": "title",
+        "text": "text",
+        "url": "url",
+        "files": [
+          {
+            "name": "externalMedia",
+            "accept": [
+              "image/jpeg",
+              "image/png",
+              "image/gif",
+              "video/quicktime",
+              "video/mp4"
+            ]
+          }
+        ]
+      }
+    },
+    "shortcuts": [
+      {
+        "name": "New Tweet",
+        "url": "/compose/tweet?utm_source=jumplist&utm_medium=shortcut",
+        "icons": [
+          {
+            "src": "https://abs.twimg.com/responsive-web/client-web-legacy/icon-compose.12384425.png",
+            "type": "image/png",
+            "sizes": "192x192"
+          }
+        ]
+      },
+      {
+        "name": "Explore",
+        "url": "/explore?utm_source=jumplist&utm_medium=shortcut",
+        "icons": [
+          {
+            "src": "https://abs.twimg.com/responsive-web/client-web-legacy/icon-search-stroke.5f9aa885.png",
+            "type": "image/png",
+            "sizes": "192x192"
+          }
+        ]
+      },
+      {
+        "name": "Notifications",
+        "url": "/notifications?utm_source=jumplist&utm_medium=shortcut",
+        "icons": [
+          {
+            "src": "https://abs.twimg.com/responsive-web/client-web-legacy/icon-notifications-stroke.429602d5.png",
+            "type": "image/png",
+            "sizes": "192x192"
+          }
+        ]
+      },
+      {
+        "name": "Direct Messages",
+        "url": "/messages?utm_source=jumplist&utm_medium=shortcut",
+        "icons": [
+          {
+            "src": "https://abs.twimg.com/responsive-web/client-web-legacy/icon-messages-stroke.5f95edc5.png",
+            "type": "image/png",
+            "sizes": "192x192"
+          }
+        ]
+      }
+    ],
+    "short_name": "Twitter",
+    "start_url": "https://twitter.com/?utm_source=homescreen&utm_medium=shortcut",
+    "theme_color": "#ffffff",
+    "scope": "/",
+    "android_package_name": "com.twitter.android",
+    "prefer_related_applications": true,
+    "related_applications": [
+      {
+        "id": "com.twitter.android",
+        "platform": "chromeos_play",
+        "url": "https://play.google.com/store/apps/details?id=com.twitter.android"
+      }
+    ]
+  },
+  "https://pinterest.com": {
+    "android_package_name": "com.pinterest",
+    "background_color": "#fff",
+    "display": "minimal-ui",
+    "icons": [
+      {
+        "src": "https://s.pinimg.com/images/favicon_red_192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ],
+    "gcm_sender_id": "1021726025582",
+    "gcm_user_visible_only": true,
+    "name": "Pinterest",
+    "orientation": "portrait",
+    "short_name": "Pinterest",
+    "start_url": "/?utm_source=homescreen_icon",
+    "theme_color": "#FFFFFF",
+    "related_applications": [
+      {
+        "platform": "play",
+        "id": "com.pinterest"
+      },
+      {
+        "platform": "play",
+        "id": "com.pinterest.ota"
+      },
+      {
+        "platform": "play",
+        "id": "com.pinterest.test"
+      },
+      {
+        "platform": "play",
+        "id": "com.pinterest.twa"
+      },
+      {
+        "platform": "play",
+        "id": "com.pinterest.dev"
+      },
+      {
+        "platform": "webapp",
+        "url": "https://www.pinterest.com/manifest.json"
+      }
+    ],
+    "url_handlers": [
+      {
+        "origin": "*.pinterest.com"
+      },
+      {
+        "origin": "*.pinterest.info"
+      },
+      {
+        "origin": "*.pinterest.at"
+      },
+      {
+        "origin": "*.pinterest.com.au"
+      },
+      {
+        "origin": "*.pinterest.ca"
+      },
+      {
+        "origin": "*.pinterest.ch"
+      },
+      {
+        "origin": "*.pinterest.cl"
+      },
+      {
+        "origin": "*.pinterest.de"
+      },
+      {
+        "origin": "*.pinterest.dk"
+      },
+      {
+        "origin": "*.pinterest.es"
+      },
+      {
+        "origin": "*.pinterest.fr"
+      },
+      {
+        "origin": "*.pinterest.co.uk"
+      },
+      {
+        "origin": "*.pinterest.ie"
+      },
+      {
+        "origin": "*.pinterest.it"
+      },
+      {
+        "origin": "*.pinterest.jp"
+      },
+      {
+        "origin": "*.pinterest.co.kr"
+      },
+      {
+        "origin": "*.pinterest.com.mx"
+      },
+      {
+        "origin": "*.pinterest.nz"
+      },
+      {
+        "origin": "*.pinterest.se"
+      },
+      {
+        "origin": "*.pinterest.ph"
+      },
+      {
+        "origin": "*.pinterest.pt"
+      },
+      {
+        "origin": "*.pinterest.ru"
+      }
+    ]
+  },
+  "https://academia.edu": {
+    "name": "My app",
+    "icons": [
+      {
+        "src": "/android-chrome-36x36.png",
+        "sizes": "36x36",
+        "type": "image/png",
+        "density": "0.75"
+      },
+      {
+        "src": "/android-chrome-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "density": "1.0"
+      },
+      {
+        "src": "/android-chrome-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png",
+        "density": "1.5"
+      },
+      {
+        "src": "/android-chrome-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+        "density": "2.0"
+      },
+      {
+        "src": "/android-chrome-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "density": "3.0"
+      },
+      {
+        "src": "/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "density": "4.0"
+      }
+    ]
+  },
+  "https://metro.co.uk": {
+    "name": "Metro",
+    "short_name": "Metro",
+    "theme_color": "#000000",
+    "background_color": "#FFFFFF",
+    "display": "minimal-ui",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "/",
+    "icons": [
+      {
+        "src": "/wp-content/themes/metro-parent/img/icons/icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "/wp-content/themes/metro-parent/img/icons/icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "/wp-content/themes/metro-parent/img/icons/icon-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "/wp-content/themes/metro-parent/img/icons/icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "/wp-content/themes/metro-parent/img/icons/icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "/wp-content/themes/metro-parent/img/icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/wp-content/themes/metro-parent/img/icons/icon-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "/wp-content/themes/metro-parent/img/icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "splash_pages": null
+  },
+  "https://sfgate.com": {
+    "name": "SFGate",
+    "short_name": "SFG",
+    "start_url": "https://sfgate.com",
+    "lang": "en-US",
+    "icons": [
+      {
+        "src": "/192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/256x256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#FF1D46",
+    "background_color": "#ffffff",
+    "display": "standalone"
+  },
+  "https://gofundme.com": {
+    "name": "GoFundMe",
+    "icons": [
+      {
+        "src": "/favicon-192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicon-512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#ffffff"
+  },
+  "https://eventbrite.com": {
+    "name": "Eventbrite",
+    "display": "standalone",
+    "icons": [
+      {
+        "sizes": "36x36",
+        "src": "https://cdn.evbstatic.com/s3-build/perm_001/a57589/django/images/favicons/android-chrome-36x36.png",
+        "type": "image/png"
+      },
+      {
+        "sizes": "48x48",
+        "src": "https://cdn.evbstatic.com/s3-build/perm_001/96ea72/django/images/favicons/android-chrome-48x48.png",
+        "type": "image/png"
+      },
+      {
+        "sizes": "72x72",
+        "src": "https://cdn.evbstatic.com/s3-build/perm_001/739496/django/images/favicons/android-chrome-72x72.png",
+        "type": "image/png"
+      },
+      {
+        "sizes": "96x96",
+        "src": "https://cdn.evbstatic.com/s3-build/perm_001/c3d8b8/django/images/favicons/android-chrome-96x96.png",
+        "type": "image/png"
+      },
+      {
+        "sizes": "144x144",
+        "src": "https://cdn.evbstatic.com/s3-build/perm_001/c33426/django/images/favicons/android-chrome-144x144.png",
+        "type": "image/png"
+      },
+      {
+        "sizes": "192x192",
+        "src": "https://cdn.evbstatic.com/s3-build/perm_001/e95298/django/images/favicons/android-chrome-192x192.png",
+        "type": "image/png"
+      }
+    ],
+    "scope": "/",
+    "start_url": "/?utm_source=a2h_menu",
+    "background_color": "#f6682f",
+    "theme_color": "#f6682f"
+  },
+  "https://pbs.org": {
+    "name": "PBS Video",
+    "short_name": "PBS Video",
+    "icons": [
+      {
+        "src": "/static/images/favicons/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/images/favicons/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "start_url": "/",
+    "prefer_related_applications": true,
+    "related_applications": [
+      {
+        "platform": "play",
+        "id": "com.pbs.video"
+      }
+    ]
+  },
+  "https://apache.org": {
+    "name": "Apache",
+    "icons": [
+      {
+        "src": "/favicons/android-chrome-36x36.png",
+        "sizes": "36x36",
+        "type": "image/png",
+        "density": "0.75"
+      },
+      {
+        "src": "/favicons/android-chrome-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "density": "1.0"
+      },
+      {
+        "src": "/favicons/android-chrome-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png",
+        "density": "1.5"
+      },
+      {
+        "src": "/favicons/android-chrome-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+        "density": "2.0"
+      },
+      {
+        "src": "/favicons/android-chrome-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "density": "3.0"
+      },
+      {
+        "src": "/favicons/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "density": "4.0"
+      }
+    ]
+  },
+  "https://icann.org": {
+    "name": "iti-web-icann",
+    "short_name": "web-icann",
+    "theme_color": "#008080",
+    "background_color": "#008B8B",
+    "display": "standalone",
+    "description": "iti-web-icann",
+    "scope": "/",
+    "start_url": "/",
+    "icons": [
+      {
+        "src": "src/assets/images/icons/W_D_bg_RGB_secondary_16.png",
+        "sizes": "16x16",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "src/assets/images/icons/W_D_bg_RGB_secondary_32.png",
+        "sizes": "32x32",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "src/assets/images/icons/W_D_bg_RGB_secondary_72.png",
+        "sizes": "72x72",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "src/assets/images/icons/W_D_bg_RGB_secondary_96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "src/assets/images/icons/W_D_bg_RGB_secondary_128.png",
+        "sizes": "128x128",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "src/assets/images/icons/W_D_bg_RGB_secondary_144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "src/assets/images/icons/W_D_bg_RGB_secondary_152.png",
+        "sizes": "152x152",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "src/assets/images/icons/W_D_bg_RGB_secondary_192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "src/assets/images/icons/W_D_bg_RGB_secondary_384.png",
+        "sizes": "384x384",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "src/assets/images/icons/W_D_bg_RGB_secondary_512.svg",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ]
+  },
+  "https://surveymonkey.com": {
+    "icons": [
+      {
+        "src": "/assets/static/images/surveymonkey/favicon-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/assets/static/images/surveymonkey/favicon-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  },
+  "https://ft.com": {
+    "name": "Financial Times",
+    "short_name": "FT",
+    "icons": [
+      {
+        "src": "https://www.ft.com/__assets/creatives/brand-ft/icons/v2/android-chrome-36x36.png",
+        "sizes": "36x36",
+        "type": "image/png",
+        "density": 0.75
+      },
+      {
+        "src": "https://www.ft.com/__assets/creatives/brand-ft/icons/v2/android-chrome-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "density": 1
+      },
+      {
+        "src": "https://www.ft.com/__assets/creatives/brand-ft/icons/v2/android-chrome-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png",
+        "density": 1.5
+      },
+      {
+        "src": "https://www.ft.com/__assets/creatives/brand-ft/icons/v2/android-chrome-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+        "density": 2
+      },
+      {
+        "src": "https://www.ft.com/__assets/creatives/brand-ft/icons/v2/android-chrome-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "density": 3
+      },
+      {
+        "src": "https://www.ft.com/__assets/creatives/brand-ft/icons/v2/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "density": 4
+      }
+    ],
+    "start_url": "/",
+    "display": "browser",
+    "permissions": [
+      "gcm",
+      "storage"
+    ],
+    "gcm_sender_id": "107907817453",
+    "gcm_user_visible_only": true,
+    "prefer_related_applications": true,
+    "related_applications": [
+      {
+        "platform": "play",
+        "id": "com.ft.news"
+      }
+    ]
+  },
+  "https://francetvinfo.fr": {
+    "short_name": "franceinfo",
+    "name": "franceinfo",
+    "start_url": "/#xtor=CS3-788",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "display": "standalone",
+    "orientation": "portrait",
+    "lang": "fr-FR",
+    "icons": [
+      {
+        "src": "/skin/dist/mobile/img/pwa/launcher-48x48-f32abaaad8.png",
+        "type": "image/png",
+        "sizes": "48x48"
+      },
+      {
+        "src": "/skin/dist/mobile/img/pwa/launcher-72x72-8c962598fc.png",
+        "type": "image/png",
+        "sizes": "72x72"
+      },
+      {
+        "src": "/skin/dist/mobile/img/pwa/launcher-96x96-99b060ab6a.png",
+        "type": "image/png",
+        "sizes": "96x96"
+      },
+      {
+        "src": "/skin/dist/mobile/img/pwa/launcher-128x128-f658212c3d.png",
+        "type": "image/png",
+        "sizes": "128x128"
+      },
+      {
+        "src": "/skin/dist/mobile/img/pwa/launcher-144x144-624bd25bfa.png",
+        "type": "image/png",
+        "sizes": "144x144"
+      },
+      {
+        "src": "/skin/dist/mobile/img/pwa/launcher-152x152-515b549801.png",
+        "type": "image/png",
+        "sizes": "152x152"
+      },
+      {
+        "src": "/skin/dist/mobile/img/pwa/launcher-192x192-10355d87fd.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/skin/dist/mobile/img/pwa/launcher-512x512-b01f1d8286.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      },
+      {
+        "src": "/skin/dist/mobile/img/pwa/launcher-1024x1024-4aff048bae.png",
+        "type": "image/png",
+        "sizes": "1024x1024"
+      }
+    ],
+    "related_applications": [
+      {
+        "platform": "play",
+        "url": "https://play.google.com/store/apps/details?id=fr.francetv.apps.info",
+        "id": "fr.francetv.apps.info"
+      },
+      {
+        "platform": "itunes",
+        "url": "https://itunes.apple.com/fr/app/franceinfo/id348684697"
+      }
+    ]
+  },
+  "https://ria.ru": {
+    "name": "Ria.ru",
+    "short_name": "Ria.ru",
+    "background_color": "#FFFFFF",
+    "theme_color": "#0075FF",
+    "icons": [
+      {
+        "src": "https://cdn21.img.ria.ru/i/favicons/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "src": "https://cdn21.img.ria.ru/i/favicons/48.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "density": 1
+      },
+      {
+        "src": "https://cdn21.img.ria.ru/i/favicons/favicon-64x64.png",
+        "sizes": "64x64",
+        "type": "image/png"
+      },
+      {
+        "src": "https://cdn21.img.ria.ru/i/favicons/apple-touch-icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png",
+        "density": 1.5
+      },
+      {
+        "src": "https://cdn21.img.ria.ru/i/favicons/favicon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+        "density": 2
+      },
+      {
+        "src": "https://cdn21.img.ria.ru/i/favicons/apple-touch-icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "density": 3
+      },
+      {
+        "src": "https://cdn21.img.ria.ru/i/favicons/128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "https://cdn21.img.ria.ru/i/favicons/192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "https://cdn21.img.ria.ru/i/favicons/maskable_icon.png",
+        "sizes": "240x240",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "https://cdn21.img.ria.ru/i/favicons/512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/?utm_source=pwa_screen",
+    "display": "standalone",
+    "gcm_sender_id": "759785258860",
+    "prefer_related_applications": true,
+    "related_applications": [
+      {
+        "platform": "play",
+        "url": "https://play.google.com/store/apps/details?id=ru.ria.ria",
+        "id": "ru.ria.ria"
+      }
+    ]
+  },
+  "https://abc.es": {
+    "short_name": "ABC.es",
+    "lang": "es",
+    "name": "ABC - Tu diario en español - ABC.es",
+    "description": "ABC.es. El gran periódico español. Diario de referencia y decano de la prensa nacional. Líder en dispositivos móviles. Credibilidad e información al instante.",
+    "icons": [
+      {
+        "src": "/favicon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicon-256x256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "favicon-2017.ico",
+        "sizes": "32x32 48x48 72x72"
+      }
+    ],
+    "theme_color": "#00629b",
+    "background_color": "#bbbbbb",
+    "display": "standalone",
+    "start_url": "/?utm_source=homescreen",
+    "screenshots": [
+      {
+        "src": "/screenshotabc.jpg",
+        "sizes": "1280x920",
+        "type": "image/jpeg"
+      }
+    ],
+    "related_applications": [
+      {
+        "platform": "web"
+      },
+      {
+        "platform": "play",
+        "url": "https://play.google.com/store/apps/details?id=com.vocento.abc",
+        "id": "com.example.app1"
+      },
+      {
+        "platform": "itunes",
+        "url": "https://itunes.apple.com/es/app/diario-abc/id336860348"
+      }
+    ]
+  },
+  "https://rt.com": {
+    "name": "RT in English",
+    "short_name": "RT",
+    "description": "RT offers a real alternative in the world of information. The news that the main international channels do not speak about.",
+    "start_url": "https://www.rt.com/?utm_source=homescreen_android&utm_medium=tap&utm_campaign=homescreen",
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "background_color": "green",
+    "theme_color": "green",
+    "icons": [
+      {
+        "src": "/static/js/homescreen/icon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ]
+  },
+  "https://mashable.com": {
+    "name": "Mashable",
+    "short_name": "Mashable",
+    "icons": [
+      {
+        "src": "/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+  },
+  "https://nypost.com": {
+    "name": "New York Post",
+    "short_name": "New York Post",
+    "icons": [
+      {
+        "src": "/wp-content/themes/nypost-2016/static/images/favicon-nypost/icon-36x36.png",
+        "sizes": "36x36",
+        "type": "image/png",
+        "density": 0.75
+      },
+      {
+        "src": "/wp-content/themes/nypost-2016/static/images/favicon-nypost/icon-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "density": 1
+      },
+      {
+        "src": "/wp-content/themes/nypost-2016/static/images/favicon-nypost/icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png",
+        "density": 1.5
+      },
+      {
+        "src": "/wp-content/themes/nypost-2016/static/images/favicon-nypost/icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+        "density": 2
+      },
+      {
+        "src": "/wp-content/themes/nypost-2016/static/images/favicon-nypost/icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "density": 3
+      },
+      {
+        "src": "/wp-content/themes/nypost-2016/static/images/favicon-nypost/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "density": 4
+      },
+      {
+        "src": "/wp-content/themes/nypost-2016/static/images/favicon-nypost/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "prefer_related_applications": true,
+    "related_applications": [
+      {
+        "platform": "play",
+        "id": "br.com.golmobile.nypost"
+      }
+    ]
+  },
+  "https://researchgate.net": {
+    "name": "ResearchGate",
+    "short_name": "ResearchGate",
+    "icons": [
+      {
+        "src": "android-chrome-36x36.png",
+        "sizes": "36x36",
+        "type": "image/png"
+      },
+      {
+        "src": "android-chrome-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "android-chrome-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "android-chrome-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "android-chrome-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ]
+  },
+  "https://finance.yahoo.com": {
+    "short_name": "Yahoo Finance",
+    "name": "Yahoo Finance - Business Finance, Stock Market, Quotes, News",
+    "icons": [
+      {
+        "src": "https://s.yimg.com/uc/fin/img/logo192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "https://s.yimg.com/uc/fin/img/logo300x300.png",
+        "type": "image/png",
+        "sizes": "300x300"
+      },
+      {
+        "src": "https://s.yimg.com/uc/fin/img/19/02/d408d9d.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#2196F3",
+    "theme_color": "#070f6c"
+  },
+  "https://economist.com": {
+    "name": "The Economist",
+    "short_name": "Economist",
+    "start_url": "/",
+    "icons": [
+      {
+        "src": "/ico/touch-icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/ico/touch-icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "background_color": "#E3120B",
+    "theme_color": "#E3120B",
+    "display": "standalone"
+  },
+  "https://clarin.com": {
+    "name": "Clarín",
+    "display": "standalone",
+    "orientation": "portrait",
+    "description": "Clarin.com. Noticias de la Argentina y el mundo. Información actualizada las 24 horas y en español.",
+    "background_color": "#ffffff",
+    "gcm_sender_id": "103953800507",
+    "icons": [
+      {
+        "src": "/android-icon-36x36.png",
+        "sizes": "36x36",
+        "type": "image/png",
+        "density": "0.75"
+      },
+      {
+        "src": "/android-icon-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "density": "1.0"
+      },
+      {
+        "src": "/android-icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png",
+        "density": "1.5"
+      },
+      {
+        "src": "/android-icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+        "density": "2.0"
+      },
+      {
+        "src": "/android-icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "density": "3.0"
+      },
+      {
+        "src": "/android-icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "density": "4.0"
+      }
+    ]
+  },
+  "https://photobucket.com": {
+    "name": "Photobucket",
+    "icons": [
+      {
+        "src": "/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#19213b",
+    "background_color": "#19213b",
+    "display": "standalone"
+  },
+  "https://variety.com": {
+    "name": "Variety",
+    "short_name": "Variety",
+    "scope": "/",
+    "icons": [
+      {
+        "src": "https://variety.com/wp-content/themes/pmc-variety-2020/assets/app/icons/icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "https://variety.com/wp-content/themes/pmc-variety-2020/assets/app/icons/icon-100x100.png",
+        "sizes": "100x100",
+        "type": "image/png"
+      },
+      {
+        "src": "https://variety.com/wp-content/themes/pmc-variety-2020/assets/app/icons/icon-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "https://variety.com/wp-content/themes/pmc-variety-2020/assets/app/icons/icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "https://variety.com/wp-content/themes/pmc-variety-2020/assets/app/icons/icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "https://variety.com/wp-content/themes/pmc-variety-2020/assets/app/icons/icon-196x196.png",
+        "sizes": "196x196",
+        "type": "image/png"
+      },
+      {
+        "src": "https://variety.com/wp-content/themes/pmc-variety-2020/assets/app/icons/icon-256x256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "https://variety.com/wp-content/themes/pmc-variety-2020/assets/app/icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "prefer_related_applications": true,
+    "related_applications": [
+      {
+        "platform": "itunes",
+        "id": "416179538"
+      },
+      {
+        "platform": "play",
+        "id": "com.polarmobile.appstore.variety"
+      }
+    ],
+    "start_url": "https://variety.com/",
+    "display": "minimal-ui",
+    "dir": "ltr",
+    "lang": "en-US",
+    "background_color": "#fff",
+    "theme_color": "#fff"
+  },
+  "https://sputniknews.com": {
+    "name": "Sputnik International",
+    "short_name": "Sputnik International",
+    "icons": [
+      {
+        "src": "/i/favicon/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "src": "/i/favicon/favicon-36x36.png",
+        "sizes": "36x36",
+        "type": "image/png",
+        "density": 0.75
+      },
+      {
+        "src": "/i/favicon/favicon-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "density": 1
+      },
+      {
+        "src": "/i/favicon/favicon-64x64.png",
+        "sizes": "64x64",
+        "type": "image/png"
+      },
+      {
+        "src": "/i/favicon/favicon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png",
+        "density": 1.5
+      },
+      {
+        "src": "/i/favicon/favicon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+        "density": 2
+      },
+      {
+        "src": "/i/favicon/favicon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "density": 3
+      },
+      {
+        "src": "/i/favicon/favicon-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "/i/favicon/favicon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/?utm_source=pwa_screen",
+    "display": "standalone",
+    "theme_color": "#FF9600",
+    "gcm_sender_id": "304454124940"
+  },
+  "https://evernote.com": {
+    "short_name": "Evernote",
+    "name": "Evernote",
+    "prefer_related_applications": true,
+    "related_applications": [
+      {
+        "platform": "play",
+        "id": "com.evernote"
+      }
+    ]
+  },
+  "https://weather.com": {
+    "name": "The Weather Channel",
+    "short_name": "Weather.com",
+    "icons": [
+      {
+        "src": "//s.w-x.co/twc_36x36.png",
+        "sizes": "36x36",
+        "type": "image/png",
+        "density": 0.75
+      },
+      {
+        "src": "//s.w-x.co/twc_48x48.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "density": 1
+      },
+      {
+        "src": "//s.w-x.co/twc_72x72.png",
+        "sizes": "72x72",
+        "type": "image/png",
+        "density": 1.5
+      },
+      {
+        "src": "//s.w-x.co/twc_96x96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+        "density": 2
+      },
+      {
+        "src": "//s.w-x.co/twc_128x128.png",
+        "sizes": "128x128",
+        "type": "image/png",
+        "density": 2.5
+      },
+      {
+        "src": "//s.w-x.co/twc_144x144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "density": 3
+      },
+      {
+        "src": "//s.w-x.co/twc_192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "density": 4
+      }
+    ],
+    "prefer_related_applications": false,
+    "start_url": "/?from=launch:homescreen",
+    "theme_color": "#003399",
+    "background_color": "#2962a9",
+    "display": "standalone",
+    "gcm_sender_id": "798371954211"
+  },
+  "https://people.com": {
+    "short_name": "TimeInc",
+    "name": "TimeInc Templates",
+    "icons": [
+      {
+        "src": "/img/favicons/favicon-144.png",
+        "type": "image/png",
+        "sizes": "144x144"
+      },
+      {
+        "src": "/img/favicons/favicon-192.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "white",
+    "theme_color": "blue",
+    "gcm_sender_id": "103953800507"
+  },
+  "https://cloud.google.com": {
+    "name": "Google Cloud",
+    "short_name": "Google Cloud",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#fff",
+    "theme_color": "#4285f4",
+    "icons": [
+      {
+        "src": "icons/icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "splash_pages": null
+  },
+  "https://qz.com": {
+    "name": "Quartz",
+    "short_name": "Quartz",
+    "icons": [
+      {
+        "src": "https://cms.qz.com/wp-content/uploads/2018/07/qz-app.png?w=128&h=128&?strip=all",
+        "type": "image/png",
+        "sizes": "128x128"
+      },
+      {
+        "src": "https://cms.qz.com/wp-content/uploads/2018/07/qz-app.png?w=152&h=152&?strip=all",
+        "type": "image/png",
+        "sizes": "152x152"
+      },
+      {
+        "src": "https://cms.qz.com/wp-content/uploads/2018/07/qz-app.png?w=144&h=144&?strip=all",
+        "type": "image/png",
+        "sizes": "144x144"
+      },
+      {
+        "src": "https://cms.qz.com/wp-content/uploads/2018/07/qz-app.png?w=192&h=192&?strip=all",
+        "type": "image/png",
+        "sizes": "192x192"
+      }
+    ],
+    "start_url": "/?utm_source=homescreen",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "display": "standalone",
+    "orientation": "portrait"
+  }
+}
