@@ -1,4 +1,48 @@
 {
+  "https://maps.google.com": {
+    "name": "Google Maps",
+    "short_name": "Google Maps",
+    "description": "Get where you're going, faster",
+    "start_url": "/maps?force=tt&source=ttpwa",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "scope": "/maps",
+    "theme_color": "#1A73E8",
+    "lang": "en",
+    "android_package_name": "com.google.android.apps.maps",
+    "icons": [
+      {
+        "sizes": "192x192",
+        "src": "https://maps.gstatic.com/mapfiles/maps_lite/pwa/icons/maps15_bnuw3a_round_192x192.png",
+        "type": "image/png"
+      },
+      {
+        "sizes": "512x512",
+        "src": "https://maps.gstatic.com/mapfiles/maps_lite/pwa/icons/maps15_bnuw3a_round_512x512.png",
+        "type": "image/png"
+      }
+    ],
+    "related_applications": [
+      {
+        "platform": "play",
+        "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.maps",
+        "id": "com.google.android.apps.maps"
+      },
+      {
+        "platform": "itunes",
+        "url": "https://itunes.apple.com/us/app/google-maps-navigation-transit/id585027354"
+      },
+      {
+        "platform": "chrome_web_store",
+        "url": "https://chrome.google.com/webstore/detail/google-maps/lneaknkopdijkpnocmklfnjbeapigfbh",
+        "id": "lneaknkopdijkpnocmklfnjbeapigfbh"
+      }
+    ],
+    "gcm_sender_id": "1004767959362",
+    "permissions": [
+      "gcm"
+    ]
+  },
   "https://uol.com.br": {
     "//": "It is the same for all projects, this is not your project's sender ID",
     "gcm_sender_id": "103953800507",
@@ -1196,6 +1240,47 @@
       }
     ]
   },
+  "https://tools.google.com": {
+    "name": "App",
+    "icons": [
+      {
+        "src": "android-icon-36x36.png",
+        "sizes": "36x36",
+        "type": "image/png",
+        "density": "0.75"
+      },
+      {
+        "src": "android-icon-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "density": "1.0"
+      },
+      {
+        "src": "android-icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png",
+        "density": "1.5"
+      },
+      {
+        "src": "android-icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+        "density": "2.0"
+      },
+      {
+        "src": "android-icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "density": "3.0"
+      },
+      {
+        "src": "android-icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "density": "4.0"
+      }
+    ]
+  },
   "https://academia.edu": {
     "name": "My app",
     "icons": [
@@ -1310,6 +1395,88 @@
     "theme_color": "#FF1D46",
     "background_color": "#ffffff",
     "display": "standalone"
+  },
+  "https://rambler.ru": {
+    "lang": "ru-RU",
+    "name": "Рамблер",
+    "short_name": "Рамблер",
+    "start_url": "/?pwa",
+    "theme_color": "#343b4c",
+    "background_color": "#343b4c",
+    "display": "standalone",
+    "orientation": "portrait",
+    "icons": [
+      {
+        "src": "/favicon/apple-touch-icon-57x57.png",
+        "sizes": "57x57",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicon/apple-touch-icon-60x60.png",
+        "sizes": "60x60",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicon/apple-touch-icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicon/apple-touch-icon-76x76.png",
+        "sizes": "76x76",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicon/apple-touch-icon-114x114.png",
+        "sizes": "114x114",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicon/apple-touch-icon-120x120.png",
+        "sizes": "120x120",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicon/apple-touch-icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicon/apple-touch-icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicon/favicon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicon/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicon/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicon/favicon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicon/favicon-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicon/favicon-196x196.png",
+        "sizes": "196x196",
+        "type": "image/png"
+      }
+    ]
   },
   "https://gofundme.com": {
     "name": "GoFundMe",
@@ -1913,6 +2080,47 @@
       }
     ]
   },
+  "https://nbcnews.com": {
+    "name": "App",
+    "icons": [
+      {
+        "src": "/android-icon-36x36.png",
+        "sizes": "36x36",
+        "type": "image/png",
+        "density": "0.75"
+      },
+      {
+        "src": "/android-icon-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "density": "1.0"
+      },
+      {
+        "src": "/android-icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png",
+        "density": "1.5"
+      },
+      {
+        "src": "/android-icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+        "density": "2.0"
+      },
+      {
+        "src": "/android-icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "density": "3.0"
+      },
+      {
+        "src": "/android-icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "density": "4.0"
+      }
+    ]
+  },
   "https://rt.com": {
     "name": "RT in English",
     "short_name": "RT",
@@ -2084,6 +2292,48 @@
       }
     ]
   },
+  "https://lefigaro.fr": {
+    "name": "Le Figaro",
+    "short_name": "Le Figaro",
+    "icons": [
+      {
+        "src": "./android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "./android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#407ec9",
+    "background_color": "#407ec9",
+    "display": "standalone"
+  },
+  "https://indiatimes.com": {
+    "name": "IndiaTimes",
+    "short_name": "IndiaTimes",
+    "scope": "/",
+    "icons": [
+      {
+        "src": "/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "start_url": "/?mode=standalone&utm_source=pwa",
+    "orientation": "portrait",
+    "gcm_sender_id": "277724106736"
+  },
   "https://finance.yahoo.com": {
     "short_name": "Yahoo Finance",
     "name": "Yahoo Finance - Business Finance, Stock Market, Quotes, News",
@@ -2129,6 +2379,31 @@
     "background_color": "#ff0500",
     "display": "standalone"
   },
+  "https://target.com": {
+    "name": "Target : Expect More. Pay Less.",
+    "short_name": "Target",
+    "start_url": "/?lnk=pwa",
+    "icons": [
+      {
+        "src": "https://assets.targetimg1.com/static/images/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "src": "https://assets.targetimg1.com/static/images/favicon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "https://assets.targetimg1.com/static/images/apple-touch-icon-precomposed.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#cc0000",
+    "background_color": "#cc0000",
+    "display": "standalone"
+  },
   "https://economist.com": {
     "name": "The Economist",
     "short_name": "Economist",
@@ -2148,6 +2423,46 @@
     "background_color": "#E3120B",
     "theme_color": "#E3120B",
     "display": "standalone"
+  },
+  "https://sapo.pt": {
+    "name": "SAPO",
+    "icons": [
+      {
+        "src": "//assets.web.sapo.io/sapologos/touchicon/sapo.pt/touch-icon-192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "//assets.web.sapo.io/sapologos/touchicon/sapo.pt/touch-icon-512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "display": "browser",
+    "start_url": "/?homescreen",
+    "short_name": "SAPO",
+    "theme_color": "#69A618"
+  },
+  "https://orange.fr": {
+    "icons": [
+      {
+        "src": "https://cdn.woopic.com/18d8339538654b1dbf96a30e92745731/images/icon_512x512.3c72759cf8759cb34d720ab6a0d7e743.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "https://cdn.woopic.com/18d8339538654b1dbf96a30e92745731/images/icon_192x192.eb3a7b7281a709a0076f6e7b86ca5400.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ],
+    "name": "Orange",
+    "short_name": "Orange",
+    "orientation": "portrait",
+    "display": "browser",
+    "start_url": "/?utm_source=homescreen",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff"
   },
   "https://box.com": {
     "name": "Box",
@@ -2373,6 +2688,75 @@
     "display": "standalone",
     "theme_color": "#FF9600",
     "gcm_sender_id": "304454124940"
+  },
+  "https://news.com.au": {
+    "icons": [
+      {
+        "src": "../images/manifest-icon/news/icon_512x512.svg",
+        "sizes": "512x512",
+        "type": "image/svg+xml"
+      },
+      {
+        "src": "../images/manifest-icon/news/icon_384x384.svg",
+        "sizes": "384x384",
+        "type": "image/svg+xml"
+      },
+      {
+        "src": "../images/manifest-icon/news/icon_256x256.svg",
+        "sizes": "256x256",
+        "type": "image/svg+xml"
+      },
+      {
+        "src": "../images/manifest-icon/news/icon_192x192.svg",
+        "sizes": "192x192",
+        "type": "image/svg+xml"
+      },
+      {
+        "src": "../images/manifest-icon/news/icon_128x128.svg",
+        "sizes": "128x128",
+        "type": "image/svg+xml"
+      },
+      {
+        "src": "../images/manifest-icon/news/icon_96x96.svg",
+        "sizes": "96x96",
+        "type": "image/svg+xml"
+      }
+    ],
+    "name": "News.com.au",
+    "short_name": "news",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "/",
+    "description": "News.com.au",
+    "background_color": "#ffffff"
+  },
+  "https://vice.com": {
+    "icons": [
+      {
+        "src": "https://vice-web-statics-cdn.vice.com/favicons/vice/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "https://vice-web-statics-cdn.vice.com/favicons/vice/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "https://vice-web-statics-cdn.vice.com/favicons/vice/apple-touch-icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      }
+    ],
+    "name": "vice",
+    "short_name": "vice",
+    "orientation": "any",
+    "display": "standalone",
+    "start_url": "/en_us",
+    "scope": ".",
+    "description": "The definitive guide to enlightening information.",
+    "background_color": "#000000",
+    "theme_color": "#5755d9"
   },
   "https://ap.org": {
     "name": "AP",
@@ -2796,57 +3180,74 @@
     "background_color": "#ffffff",
     "display": "standalone"
   },
-  "https://cloud.google.com": {
-    "name": "Google Cloud",
-    "short_name": "Google Cloud",
-    "start_url": "/",
-    "display": "standalone",
-    "orientation": "portrait",
-    "background_color": "#fff",
-    "theme_color": "#4285f4",
+  "https://howstuffworks.com": {
+    "name": "HowStuffWorks",
     "icons": [
       {
-        "src": "icons/icon-72x72.png",
-        "sizes": "72x72",
-        "type": "image/png"
-      },
-      {
-        "src": "icons/icon-96x96.png",
-        "sizes": "96x96",
-        "type": "image/png"
-      },
-      {
-        "src": "icons/icon-128x128.png",
-        "sizes": "128x128",
-        "type": "image/png"
-      },
-      {
-        "src": "icons/icon-144x144.png",
-        "sizes": "144x144",
-        "type": "image/png"
-      },
-      {
-        "src": "icons/icon-152x152.png",
-        "sizes": "152x152",
-        "type": "image/png"
-      },
-      {
-        "src": "icons/icon-192x192.png",
+        "src": "https://cdn.hswstatic.com/en-us/hsw/img/icons/icon-192x192.png",
+        "purpose": "any",
         "sizes": "192x192",
         "type": "image/png"
       },
       {
-        "src": "icons/icon-384x384.png",
-        "sizes": "384x384",
+        "src": "https://cdn.hswstatic.com/en-us/hsw/img/icons/icon-512x512.png",
+        "purpose": "any",
+        "sizes": "512x512",
         "type": "image/png"
       },
       {
-        "src": "icons/icon-512x512.png",
-        "sizes": "512x512",
-        "type": "image/png"
+        "src": "https://cdn.hswstatic.com/en-us/hsw/img/icons/favicon-mask.svg",
+        "purpose": "any maskable",
+        "sizes": "196x196",
+        "type": "image/svg+xml"
       }
     ],
-    "splash_pages": null
+    "start_url": "/?source=pwa",
+    "background_color": "#1573A6",
+    "display": "minimal-ui",
+    "scope": "/",
+    "theme_color": "#2B2B5C"
+  },
+  "https://calameo.com": {
+    "name": "My app",
+    "icons": [
+      {
+        "src": "/pinwheel/7011-062fb5/platform/img/favicon/android-chrome-36x36.png",
+        "sizes": "36x36",
+        "type": "image/png",
+        "density": "0.75"
+      },
+      {
+        "src": "/pinwheel/7011-062fb5/platform/img/favicon/android-chrome-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "density": "1.0"
+      },
+      {
+        "src": "/pinwheel/7011-062fb5/platform/img/favicon/android-chrome-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png",
+        "density": "1.5"
+      },
+      {
+        "src": "/pinwheel/7011-062fb5/platform/img/favicon/android-chrome-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+        "density": "2.0"
+      },
+      {
+        "src": "/pinwheel/7011-062fb5/platform/img/favicon/android-chrome-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "density": "3.0"
+      },
+      {
+        "src": "/pinwheel/7011-062fb5/platform/img/favicon/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "density": "4.0"
+      }
+    ]
   },
   "https://qz.com": {
     "name": "Quartz",
@@ -2878,5 +3279,42 @@
     "theme_color": "#ffffff",
     "display": "standalone",
     "orientation": "portrait"
+  },
+  "https://xda-developers.com": {
+    "name": "",
+    "short_name": "",
+    "icons": [
+      {
+        "src": "/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+  },
+  "https://si.edu": {
+    "name": "",
+    "icons": [
+      {
+        "src": "/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/android-chrome-256x256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
   }
 }
